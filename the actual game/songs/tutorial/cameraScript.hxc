@@ -1,0 +1,8 @@
+function onMoveCamera(target:String) // foda, eu criei um script q vou provavelmente reutilizar em uma penca de lugar!!!
+{
+    if (target == 'boyfriend' || target == 'player') {
+        cameraZoom(0.83, 4, 'backInOut', 'nll');
+    } else if (target == 'dad' || target == 'opponent') {
+        cameraZoom(0.75, 4, 'backInOut', 'nll');
+    }
+}

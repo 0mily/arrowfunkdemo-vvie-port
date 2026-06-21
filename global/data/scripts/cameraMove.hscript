@@ -1,0 +1,3 @@
+function onCreatePost() { // imagina quem vai só copiar e colar o mod na Psych fork deles sem saber dos novos apis hihi
+    triggerEvent('Modify Camera Move', 'on, 1', '1, 15');
+}

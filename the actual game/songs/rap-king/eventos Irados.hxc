@@ -1,0 +1,23 @@
+function onEvent(eventName, tag1:String) {
+    switch (eventName)
+	{
+		case 'LuaScript Call':
+            switch (tag1)
+			{
+                case 'end_cutscene':
+                    var acc:Float = PlayState.instance.ratingPercent * 100;
+
+                    if (acc < 50) {
+                        dad.playAnim('killer', true);
+                        boyfriend.playAnim('killed', true);
+
+                        dad.specialAnim = true;
+                        boyfriend.specialAnim = true;
+                    } else {
+                        dad.playAnim('throwmic', true);
+                        dad.specialAnim = true;
+                    }
+            }
+    }
+}
+

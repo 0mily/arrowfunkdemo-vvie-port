@@ -1,0 +1,196 @@
+{
+	"camera_boyfriend": [
+		0,
+		0
+	],
+	"_editorMeta": {
+		"boyfriend": "bidu",
+		"dad": "sagu",
+		"gf": "barbara"
+	},
+	"isPixelStage": false,
+	"objects": [
+		{
+			"x": -872,
+			"y": -677,
+			"scale": [
+				2,
+				2
+			],
+			"image": "bgs/balada/layer1",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "parede",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				0.9,
+				0.9
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -1038,
+			"y": -534,
+			"scale": [
+				0.8,
+				0.8
+			],
+			"image": "bgs/balada/layer2",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "floor",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -904,
+			"y": -667,
+			"scale": [
+				1,
+				1
+			],
+			"image": "bgs/balada/layer3",
+			"flipX": false,
+			"filters": 2,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "luzes",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1.05,
+				1.05
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"type": "gf"
+		},
+		{
+			"type": "boyfriend"
+		},
+		{
+			"type": "dad"
+		},
+		{
+			"x": -856,
+			"y": -616,
+			"scale": [
+				1,
+				1
+			],
+			"image": "bgs/balada/layer4",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "lampadas",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -841,
+			"y": -835,
+			"scale": [
+				1.03,
+				1.05
+			],
+			"image": "bgs/balada/layer5",
+			"flipX": false,
+			"filters": 2,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "curtinas",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1.1,
+				1.1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -1142,
+			"y": -763,
+			"scale": [
+				2.05,
+				2.05
+			],
+			"image": "bgs/balada/light",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "overlay",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				0.45,
+				0.3
+			],
+			"alpha": 1,
+			"type": "sprite"
+		}
+	],
+	"camera_girlfriend": [
+		0,
+		0
+	],
+	"defaultZoom": 0.66,
+	"camera_opponent": [
+		0,
+		0
+	],
+	"hide_girlfriend": false,
+	"scroll_boyfriend": [
+		0.9,
+		0.9
+	],
+	"boyfriend": [
+		823,
+		67
+	],
+	"girlfriend": [
+		260,
+		130
+	],
+	"timebar_color": [
+		215,
+		61,
+		74
+	],
+	"scroll_girlfriend": [
+		0.93,
+		0.9
+	],
+	"opponent": [
+		-30,
+		90
+	],
+	"directory": "",
+	"camera_speed": 1,
+	"scroll_opponent": [
+		0.9,
+		0.9
+	]
+}

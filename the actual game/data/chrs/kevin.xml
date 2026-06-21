@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character assetPath="chrs/week1/kevin/main" icon="kevin" scale="1" singDuration="8" x="70" y="40" cameraX="-140" cameraY="0" flipX="false" noAntialiasing="false" healthColor="#48D2FF" vocalsFile="" vsliceHolds="false">
+	<assets>
+		<asset path="chrs/week1/kevin/main"/>
+	</assets>
+	<animations>
+		<anim id="singLEFT" symbol="KEVIN left note" fps="24" loop="false" x="152" y="-7" playerX="152" playerY="-7"/>
+		<anim id="singDOWN" symbol="KEVIN Down Note" fps="24" loop="false" x="23" y="-44" playerX="23" playerY="-44"/>
+		<anim id="singUP" symbol="KEVIN Up Note" fps="24" loop="false" x="-5" y="109" playerX="-5" playerY="109"/>
+		<anim id="singRIGHT" symbol="KEVIN Right Note" fps="24" loop="false" x="-49" y="-21" playerX="-49" playerY="-21"/>
+		<anim id="danceLeft" symbol="KEVIN Dancing Beat" fps="24" loop="false" x="0" y="-9" playerX="0" playerY="-9" indices="30,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14"/>
+		<anim id="danceRight" symbol="KEVIN Dancing Beat" fps="24" loop="false" x="0" y="-9" playerX="0" playerY="-9" indices="15,16,17,18,19,20,21,22,23,24,25,26,27,28,29"/>
+		<anim id="nice" symbol="KEVIN Nice" fps="24" loop="false" x="-22" y="-8" playerX="-22" playerY="-8"/>
+		<anim id="thatshow" symbol="KEVIN Line" fps="24" loop="false" x="-6" y="-2" playerX="-6" playerY="-2"/>
+	</animations>
+</character>

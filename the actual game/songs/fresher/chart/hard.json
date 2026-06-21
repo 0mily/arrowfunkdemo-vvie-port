@@ -1,0 +1,2279 @@
+{
+	"player1": "bidu",
+	"events": [
+		[
+			0,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			0,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			1000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			1250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			1500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			1750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			2000,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			2000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			2250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			2500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			2750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			3000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			3250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			3500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			3750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			4000,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			4000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			4250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			4500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			4750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			5000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			5250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			5500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			5750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			6000,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			6000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			6250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			6500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			6750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			7000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			7250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			7500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			7750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			8000,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			8000,
+			[
+				["Set GF Speed", "2", ""]
+			]
+		],
+		[
+			8015.625,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			12000,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			16000,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			20000,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			24000,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			24000,
+			[
+				["Set GF Speed", "1", ""]
+			]
+		],
+		[
+			28000,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			32000,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			36000,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			40000,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			44000,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			48000,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			49000,
+			[
+				["Change Scroll Speed", "0.9", "0.1"]
+			]
+		],
+		[
+			50000,
+			[
+				["Set GF Speed", "2", ""]
+			]
+		],
+		[
+			51750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			52000,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			52000,
+			[
+				["Set GF Speed", "1", ""]
+			]
+		],
+		[
+			53000,
+			[
+				["Change Scroll Speed", "0.9", "0.1"]
+			]
+		],
+		[
+			53250,
+			[
+				["Camera Follow Pos", "600", "400"]
+			]
+		],
+		[
+			53500,
+			[
+				["Play Animation", "shock", "GF"]
+			]
+		],
+		[
+			55750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			56000,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			56000,
+			[
+				["Change Scroll Speed", "1.15", "0.1"],
+				["Camera Follow Pos", "", ""]
+			]
+		],
+		[
+			60000,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			64000,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			68000,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			72000,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			76000,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			80000,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			81375,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			83750,
+			[
+				["Change Scroll Speed", "1.15", "0.1"]
+			]
+		],
+		[
+			84000,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			85375,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			87750,
+			[
+				["Change Scroll Speed", "1.15", "0.1"]
+			]
+		],
+		[
+			88000,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			92000,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			96000,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			100000,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			104000,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			104000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			104250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			104500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			104750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			105000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			105250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			105500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			105750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			106000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			106250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			106500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			106750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			107000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			107250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			107500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			107750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			108000,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			108000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			108250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			108500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			108750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			109000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			109250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			109500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			109750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			110000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			110250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			110500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			110750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			111000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			111250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			111500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			111750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			112000,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			112000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			112250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			112500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			112750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			113000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			113250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			113500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			113750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			114000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			114250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			114500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			114750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			115000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			115250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			115500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			115750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			116000,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			116000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			116250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			116500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			116750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			117000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			117250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			117500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			117750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			118000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			118250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			118500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			118750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			119000,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			119250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			119500,
+			[
+				["Change Scroll Speed", "0.95", "0.1"]
+			]
+		],
+		[
+			119750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			120000,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			122000,
+			[
+				["Change Scroll Speed", "0.9", "0.1"]
+			]
+		],
+		[
+			122250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			122500,
+			[
+				["Change Scroll Speed", "0.9", "0.1"]
+			]
+		],
+		[
+			122750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			123000,
+			[
+				["Change Scroll Speed", "0.9", "0.1"]
+			]
+		],
+		[
+			123250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			123500,
+			[
+				["Change Scroll Speed", "0.9", "0.1"]
+			]
+		],
+		[
+			123750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			124000,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			126000,
+			[
+				["Change Scroll Speed", "0.9", "0.1"]
+			]
+		],
+		[
+			126250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			126500,
+			[
+				["Change Scroll Speed", "0.9", "0.1"]
+			]
+		],
+		[
+			126750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			127000,
+			[
+				["Change Scroll Speed", "0.9", "0.1"]
+			]
+		],
+		[
+			127250,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			127500,
+			[
+				["Change Scroll Speed", "0.9", "0.1"]
+			]
+		],
+		[
+			127750,
+			[
+				["Change Scroll Speed", "1", "0.1"]
+			]
+		],
+		[
+			128000,
+			[
+				["Add Camera Zoom", "", "0"]
+			]
+		],
+		[
+			128500,
+			[
+				["Add Camera Zoom", "", "0"]
+			]
+		],
+		[
+			128750,
+			[
+				["Add Camera Zoom", "0.005", "0"]
+			]
+		],
+		[
+			128875,
+			[
+				["Add Camera Zoom", "", "0"]
+			]
+		],
+		[
+			129000,
+			[
+				["Add Camera Zoom", "0.005", "0"]
+			]
+		],
+		[
+			129125,
+			[
+				["Add Camera Zoom", "0.010", "0"]
+			]
+		],
+		[
+			129250,
+			[
+				["Add Camera Zoom", "", "0"]
+			]
+		],
+		[
+			129500,
+			[
+				["Add Camera Zoom", "-0.015", "0"]
+			]
+		]
+	],
+	"notes": [
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[0, 5, 0, "Alt Animation"],
+				[250, 5, 0, "Alt Animation"],
+				[500, 6, 0, "Alt Animation"],
+				[750, 5, 0, "Alt Animation"],
+				[875, 6, 0, "Alt Animation"],
+				[1125, 6, 0, "Alt Animation"],
+				[1250, 5, 0, "Alt Animation"],
+				[1500, 6, 0, "Alt Animation"],
+				[1750, 5, 0, "Alt Animation"],
+				[1875, 6, 0, "Alt Animation"]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[2000, 1, 0, "Alt Animation"],
+				[2250, 1, 0, "Alt Animation"],
+				[2500, 2, 0, "Alt Animation"],
+				[2750, 1, 0, "Alt Animation"],
+				[2875, 3, 0, "Alt Animation"],
+				[3000, 2, 0, "Alt Animation"],
+				[3125, 3, 0, "Alt Animation"],
+				[3250, 1, 0, "Alt Animation"],
+				[3375, 3, 0, "Alt Animation"],
+				[3500, 2, 0, "Alt Animation"],
+				[3625, 3, 0, "Alt Animation"],
+				[3750, 1, 0, "Alt Animation"],
+				[3875, 2, 0, "Alt Animation"]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[4000, 5, 0, "Alt Animation"],
+				[4250, 5, 0, "Alt Animation"],
+				[4500, 6, 0, "Alt Animation"],
+				[4750, 5, 0, "Alt Animation"],
+				[4875, 6, 0, "Alt Animation"],
+				[5125, 6, 0, "Alt Animation"],
+				[5250, 5, 0, "Alt Animation"],
+				[5500, 6, 0, "Alt Animation"],
+				[5750, 5, 0, "Alt Animation"],
+				[5875, 6, 0, "Alt Animation"]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[6000, 1, 0, "Alt Animation"],
+				[6250, 1, 0, "Alt Animation"],
+				[6500, 2, 0, "Alt Animation"],
+				[6750, 1, 0, "Alt Animation"],
+				[6875, 3, 0, "Alt Animation"],
+				[7000, 2, 0, "Alt Animation"],
+				[7125, 3, 0, "Alt Animation"],
+				[7250, 1, 0, "Alt Animation"],
+				[7375, 3, 0, "Alt Animation"],
+				[7500, 2, 0, "Alt Animation"],
+				[7625, 3, 0, "Alt Animation"],
+				[7750, 1, 0, "Alt Animation"],
+				[7875, 2, 0, "Alt Animation"]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[8000, 4, 0],
+				[8250, 5, 0],
+				[8500, 6, 0],
+				[8750, 7, 0],
+				[9000, 4, 0],
+				[9250, 5, 0],
+				[9500, 6, 0],
+				[9750, 7, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[10000, 4, 0],
+				[10250, 5, 0],
+				[10500, 6, 0],
+				[10750, 7, 0],
+				[11000, 4, 0],
+				[11125, 5, 0],
+				[11250, 6, 0],
+				[11375, 7, 0],
+				[11500, 5, 0],
+				[11625, 6, 0],
+				[11750, 4, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[12000, 0, 0],
+				[12250, 1, 0],
+				[12500, 2, 0],
+				[12750, 3, 0],
+				[13000, 0, 0],
+				[13250, 1, 0],
+				[13500, 2, 0],
+				[13750, 3, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[14000, 0, 0],
+				[14250, 1, 0],
+				[14500, 2, 0],
+				[14750, 3, 0],
+				[15000, 0, 0],
+				[15125, 1, 0],
+				[15250, 2, 0],
+				[15375, 3, 0],
+				[15500, 1, 0],
+				[15625, 2, 0],
+				[15750, 0, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[16000, 4, 0],
+				[16250, 5, 0],
+				[16500, 6, 0],
+				[16750, 7, 0],
+				[17000, 4, 0],
+				[17250, 5, 0],
+				[17500, 6, 0],
+				[17750, 7, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[18000, 4, 0],
+				[18250, 5, 0],
+				[18500, 6, 0],
+				[18750, 7, 0],
+				[19000, 4, 0],
+				[19125, 5, 0],
+				[19250, 6, 0],
+				[19375, 7, 0],
+				[19500, 5, 0],
+				[19625, 6, 0],
+				[19750, 4, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[20000, 0, 0],
+				[20250, 1, 0],
+				[20500, 2, 0],
+				[20750, 3, 0],
+				[21000, 0, 0],
+				[21250, 1, 0],
+				[21500, 2, 0],
+				[21750, 3, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[22000, 0, 0],
+				[22250, 1, 0],
+				[22500, 2, 0],
+				[22750, 3, 0],
+				[23000, 0, 0],
+				[23125, 1, 0],
+				[23250, 2, 0],
+				[23375, 3, 0],
+				[23500, 1, 0],
+				[23625, 2, 0],
+				[23750, 0, 0],
+				[23875, 0, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[24000, 4, 0],
+				[24250, 6, 0],
+				[24500, 5, 0],
+				[24750, 7, 0],
+				[25250, 7, 0],
+				[25750, 7, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[26250, 4, 0],
+				[26500, 5, 0],
+				[27000, 6, 0],
+				[27500, 6, 0],
+				[27750, 6, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[28000, 0, 0],
+				[28250, 2, 0],
+				[28500, 1, 0],
+				[28750, 3, 0],
+				[29250, 3, 0],
+				[29750, 3, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[30250, 0, 0],
+				[30500, 1, 0],
+				[31000, 2, 0],
+				[31500, 2, 0],
+				[31750, 2, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[32000, 4, 0],
+				[32250, 6, 0],
+				[32500, 5, 0],
+				[32750, 7, 0],
+				[33250, 5, 0],
+				[33750, 6, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[34250, 4, 0],
+				[34500, 5, 0],
+				[34750, 7, 0],
+				[35000, 6, 0],
+				[35250, 5, 0],
+				[35375, 6, 0],
+				[35625, 4, 0],
+				[35750, 7, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[36000, 0, 0],
+				[36250, 2, 0],
+				[36500, 1, 0],
+				[36750, 3, 0],
+				[37250, 1, 0],
+				[37750, 2, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[38250, 0, 0],
+				[38500, 1, 0],
+				[38750, 3, 0],
+				[39000, 2, 0],
+				[39250, 1, 0],
+				[39375, 2, 0],
+				[39625, 0, 0],
+				[39750, 3, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[40000, 7, 0],
+				[40500, 6, 0],
+				[41000, 7, 0],
+				[41250, 7, 0],
+				[41375, 7, 0],
+				[41500, 5, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[42000, 4, 0],
+				[42250, 7, 0],
+				[42375, 7, 0],
+				[42500, 5, 0],
+				[42750, 6, 0],
+				[42875, 6, 0],
+				[43000, 5, 0],
+				[43125, 7, 0],
+				[43250, 5, 0],
+				[43375, 4, 0],
+				[43500, 6, 0],
+				[43750, 6, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[44000, 3, 0],
+				[44500, 2, 0],
+				[45000, 3, 0],
+				[45250, 3, 0],
+				[45375, 3, 0],
+				[45500, 1, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[46000, 0, 0],
+				[46250, 3, 0],
+				[46375, 3, 0],
+				[46500, 1, 0],
+				[46750, 2, 0],
+				[46875, 2, 0],
+				[47000, 1, 0],
+				[47125, 3, 0],
+				[47250, 1, 0],
+				[47375, 0, 0],
+				[47500, 2, 0],
+				[47750, 2, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[48250, 4, 0],
+				[48500, 5, 0],
+				[48750, 6, 0],
+				[49000, 7, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[50250, 4, 0],
+				[50500, 5, 0],
+				[50750, 4, 0],
+				[51000, 5, 0],
+				[51250, 5, 0],
+				[51500, 7, 0],
+				[51750, 6, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[52250, 0, 0],
+				[52500, 1, 0],
+				[52750, 3, 0],
+				[53000, 1, 0],
+				[53062.5, 2, 0],
+				[53250, 0, 0],
+				[53500, 3, 0],
+				[53750, 0, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[54000, 1, 0],
+				[54062.5, 2, 0],
+				[54250, 0, 0],
+				[54375, 1, 0],
+				[54500, 3, 0],
+				[54750, 0, 0],
+				[55000, 1, 0],
+				[55125, 2, 0],
+				[55250, 1, 0],
+				[55500, 3, 0],
+				[55750, 2, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[56000, 4, 0],
+				[56000, 0, 0],
+				[56250, 6, 0],
+				[56500, 5, 0],
+				[56750, 7, 0],
+				[57250, 7, 0],
+				[57750, 7, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[58250, 4, 0],
+				[58500, 5, 0],
+				[59000, 6, 0],
+				[59125, 6, 0],
+				[59250, 6, 0],
+				[59375, 6, 0],
+				[59500, 6, 0],
+				[59750, 6, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[60000, 0, 0],
+				[60250, 2, 0],
+				[60500, 1, 0],
+				[60750, 3, 0],
+				[61250, 3, 0],
+				[61750, 3, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[62250, 0, 0],
+				[62500, 1, 0],
+				[63000, 2, 0],
+				[63125, 2, 0],
+				[63250, 2, 0],
+				[63375, 2, 0],
+				[63500, 2, 0],
+				[63750, 2, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[64000, 4, 0],
+				[64000, 0, 0],
+				[64250, 6, 0],
+				[64500, 5, 0],
+				[64750, 7, 0],
+				[65250, 5, 0],
+				[65500, 4, 0],
+				[65750, 6, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[66250, 4, 0],
+				[66500, 5, 0],
+				[66750, 7, 0],
+				[67000, 6, 0],
+				[67125, 6, 0],
+				[67250, 5, 0],
+				[67375, 6, 0],
+				[67500, 6, 0],
+				[67625, 4, 0],
+				[67750, 7, 0],
+				[67875, 7, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[68000, 0, 0],
+				[68250, 2, 0],
+				[68500, 1, 0],
+				[68750, 3, 0],
+				[69250, 1, 0],
+				[69500, 0, 0],
+				[69750, 2, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[70250, 0, 0],
+				[70500, 1, 0],
+				[70750, 3, 0],
+				[71000, 2, 0],
+				[71125, 2, 0],
+				[71250, 1, 0],
+				[71375, 2, 0],
+				[71500, 2, 0],
+				[71625, 0, 0],
+				[71750, 3, 0],
+				[71875, 3, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[72000, 7, 0],
+				[72500, 6, 0],
+				[73000, 7, 0],
+				[73250, 7, 0],
+				[73375, 7, 0],
+				[73500, 5, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[74000, 4, 0],
+				[74250, 7, 0],
+				[74375, 7, 0],
+				[74500, 5, 0],
+				[74750, 6, 0],
+				[74875, 6, 0],
+				[75000, 5, 0],
+				[75125, 7, 0],
+				[75250, 5, 0],
+				[75375, 4, 0],
+				[75500, 6, 0],
+				[75750, 6, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[76000, 3, 0],
+				[76500, 2, 0],
+				[77000, 3, 0],
+				[77250, 3, 0],
+				[77375, 3, 0],
+				[77500, 1, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[78000, 0, 0],
+				[78250, 3, 0],
+				[78375, 3, 0],
+				[78500, 1, 0],
+				[78750, 2, 0],
+				[78875, 2, 0],
+				[79000, 1, 0],
+				[79125, 3, 0],
+				[79250, 1, 0],
+				[79375, 0, 0],
+				[79500, 2, 0],
+				[79750, 2, 0],
+				[79875, 2, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[80250, 4, 0],
+				[80500, 5, 0],
+				[80750, 6, 0],
+				[81000, 7, 0],
+				[81250, 7, 0],
+				[81375, 7, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[82250, 4, 0],
+				[82500, 5, 0],
+				[82750, 7, 0],
+				[83000, 5, 0],
+				[83250, 5, 0],
+				[83375, 5, 0],
+				[83500, 5, 0],
+				[83625, 4, 0],
+				[83750, 6, 0]
+			],
+			"altAnim": false,
+			"gfSection": false,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"typeOfSection": 0,
+			"sectionNotes": [
+				[84250, 0, 0],
+				[84500, 1, 0],
+				[84750, 2, 0],
+				[85000, 3, 0],
+				[85250, 3, 0],
+				[85375, 3, 0]
+			],
+			"gfSection": false,
+			"altAnim": false,
+			"bpm": 120,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"typeOfSection": 0,
+			"sectionNotes": [
+				[86250, 0, 0],
+				[86500, 1, 0],
+				[86750, 3, 0],
+				[87000, 1, 0],
+				[87062.5, 2, 0],
+				[87250, 0, 0],
+				[87500, 3, 0],
+				[87625, 3, 0],
+				[87750, 1, 0]
+			],
+			"gfSection": false,
+			"altAnim": false,
+			"bpm": 120,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"typeOfSection": 0,
+			"sectionNotes": [
+				[88000, 2, 125],
+				[88250, 4, 0],
+				[88500, 6, 0],
+				[88750, 7, 0],
+				[89000, 5, 0],
+				[89250, 0, 0],
+				[89500, 2, 0],
+				[89750, 3, 0]
+			],
+			"gfSection": false,
+			"altAnim": false,
+			"bpm": 120,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"typeOfSection": 0,
+			"sectionNotes": [
+				[90000, 1, 0],
+				[90250, 4, 0],
+				[90500, 7, 0],
+				[90750, 6, 0],
+				[91000, 5, 0],
+				[91250, 4, 0],
+				[91500, 5, 0],
+				[91750, 6, 0]
+			],
+			"gfSection": false,
+			"altAnim": false,
+			"bpm": 120,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"typeOfSection": 0,
+			"sectionNotes": [
+				[92000, 7, 0],
+				[92250, 0, 0],
+				[92500, 2, 0],
+				[92750, 3, 0],
+				[93000, 1, 0],
+				[93250, 4, 0],
+				[93500, 6, 0],
+				[93750, 7, 0]
+			],
+			"gfSection": false,
+			"altAnim": false,
+			"bpm": 120,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"typeOfSection": 0,
+			"sectionNotes": [
+				[94000, 5, 0],
+				[94250, 0, 0],
+				[94500, 3, 0],
+				[94750, 2, 0],
+				[95000, 1, 0],
+				[95250, 0, 0],
+				[95500, 1, 0],
+				[95750, 3, 0]
+			],
+			"gfSection": false,
+			"altAnim": false,
+			"bpm": 120,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"typeOfSection": 0,
+			"sectionNotes": [
+				[96000, 2, 125],
+				[96250, 4, 0],
+				[96500, 6, 0],
+				[96750, 7, 0],
+				[97000, 5, 0],
+				[97250, 0, 0],
+				[97500, 2, 0],
+				[97750, 3, 0]
+			],
+			"gfSection": false,
+			"altAnim": false,
+			"bpm": 120,
+			"changeBPM": false,
+			"mustHitSection": false
+		},
+		{
+			"sectionBeats": 4,
+			"sectionNotes": [
+				[98000, 1, 0],
+				[98250, 4, 0],
+				[98500, 7, 0],
+				[98750, 6, 0],
+				[99000, 5, 0],
+				[99125, 6, 0],
+				[99250, 4, 0],
+				[99375, 6, 0],
+				[99500, 5, 0],
+				[99625, 6, 0],
+				[99750, 5, 0],
+				[99875, 7, 0]
+			],
+			"typeOfSection": 0,
+			"gfSection": false,
+			"altAnim": false,
+			"mustHitSection": false,
+			"changeBPM": false,
+			"bpm": 120
+		},
+		{
+			"sectionBeats": 4,
+			"typeOfSection": 0,
+			"sectionNotes": [
+				[100000, 6, 0],
+				[100250, 0, 0],
+				[100500, 2, 0],
+				[100750, 3, 0],
+				[101000, 1, 0],
+				[101250, 4, 0],
+				[101500, 6, 0],
+				[101750, 7, 0]
+			],
+			"gfSection": false,
+			"altAnim": false,
+			"bpm": 120,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"typeOfSection": 0,
+			"sectionNotes": [
+				[102000, 5, 0],
+				[102250, 1, 0],
+				[102500, 0, 0],
+				[102750, 3, 0],
+				[103000, 2, 0],
+				[103062.5, 0, 0],
+				[103125, 1, 0],
+				[103250, 2, 0],
+				[103375, 3, 0],
+				[103500, 2, 0],
+				[103562.5, 0, 0],
+				[103625, 1, 0],
+				[103750, 2, 0],
+				[103875, 3, 0]
+			],
+			"gfSection": false,
+			"altAnim": false,
+			"bpm": 120,
+			"changeBPM": false,
+			"mustHitSection": true
+		},
+		{
+			"sectionBeats": 4,
+			"altAnim": false,
+			"mustHitSection": false,
+			"typeOfSection": 0,
+			"sectionNotes": [
+				[104250, 4, 0],
+				[104500, 6, 0],
+				[104750, 7, 0],
+				[105000, 5, 0],
+				[105250, 0, 0],
+				[105500, 2, 0],
+				[105750, 3, 0]
+			],
+			"gfSection": false,
+			"bpm": 120,
+			"changeBPM": false
+		},
+		{
+			"sectionBeats": 4,
+			"altAnim": false,
+			"mustHitSection": false,
+			"typeOfSection": 0,
+			"sectionNotes": [
+				[106000, 1, 0],
+				[106250, 4, 0],
+				[106375, 4, 0],
+				[106500, 7, 0],
+				[106750, 6, 0],
+				[107000, 5, 0],
+				[107250, 4, 0],
+				[107500, 5, 0],
+				[107750, 6, 0]
+			],
+			"gfSection": false,
+			"bpm": 120,
+			"changeBPM": false
+		},
+		{
+			"sectionBeats": 4,
+			"altAnim": false,
+			"mustHitSection": true,
+			"typeOfSection": 0,
+			"sectionNotes": [
+				[108000, 7, 0],
+				[108250, 0, 0],
+				[108500, 6, 0],
+				[108500, 3, 0],
+				[108750, 1, 0],
+				[109000, 2, 0],
+				[109250, 6, 0],
+				[109500, 5, 0],
+				[109750, 4, 0],
+				[109750, 1, 125]
+			],
+			"gfSection": false,
+			"bpm": 120,
+			"changeBPM": false
+		},
+		{
+			"sectionBeats": 4,
+			"altAnim": false,
+			"mustHitSection": true,
+			"typeOfSection": 0,
+			"sectionNotes": [
+				[110000, 6, 0],
+				[110000, 2, 0],
+				[110250, 1, 0],
+				[110250, 4, 0],
+				[110312.5, 0, 0],
+				[110500, 3, 0],
+				[110500, 7, 0],
+				[110625, 2, 0],
+				[110750, 1, 0],
+				[110750, 4, 0],
+				[111000, 2, 0],
+				[111000, 6, 0],
+				[111125, 3, 0],
+				[111250, 2, 0],
+				[111250, 5, 0],
+				[111500, 1, 0],
+				[111500, 6, 0],
+				[111625, 0, 0],
+				[111750, 1, 0],
+				[111750, 5, 0],
+				[111875, 2, 125]
+			],
+			"gfSection": false,
+			"bpm": 120,
+			"changeBPM": false
+		},
+		{
+			"sectionBeats": 4,
+			"altAnim": false,
+			"mustHitSection": false,
+			"sectionNotes": [
+				[112250, 4, 0],
+				[112500, 6, 0],
+				[112500, 3, 125],
+				[112750, 7, 0],
+				[113000, 5, 0],
+				[113250, 0, 0],
+				[113500, 2, 0],
+				[113500, 4, 0],
+				[113625, 7, 0],
+				[113750, 3, 0],
+				[113750, 5, 0]
+			],
+			"typeOfSection": 0,
+			"gfSection": false,
+			"changeBPM": false,
+			"bpm": 120
+		},
+		{
+			"sectionBeats": 4,
+			"altAnim": false,
+			"mustHitSection": false,
+			"typeOfSection": 0,
+			"sectionNotes": [
+				[114000, 1, 0],
+				[114000, 6, 0],
+				[114250, 4, 0],
+				[114500, 7, 0],
+				[114750, 6, 0],
+				[114750, 1, 0],
+				[115000, 5, 0],
+				[115125, 6, 0],
+				[115250, 4, 0],
+				[115250, 0, 0],
+				[115375, 6, 0],
+				[115375, 3, 0],
+				[115500, 0, 0],
+				[115500, 7, 0],
+				[115750, 2, 0],
+				[115750, 4, 0]
+			],
+			"gfSection": false,
+			"bpm": 120,
+			"changeBPM": false
+		},
+		{
+			"sectionBeats": 4,
+			"altAnim": false,
+			"mustHitSection": true,
+			"typeOfSection": 0,
+			"sectionNotes": [
+				[116000, 1, 0],
+				[116000, 5, 875],
+				[116250, 0, 0],
+				[116500, 1, 0],
+				[116750, 3, 0],
+				[117000, 2, 125],
+				[117250, 3, 0],
+				[117250, 4, 0],
+				[117375, 2, 0],
+				[117375, 5, 0],
+				[117500, 1, 0],
+				[117500, 6, 0],
+				[117750, 0, 0],
+				[117750, 7, 0]
+			],
+			"gfSection": false,
+			"bpm": 120,
+			"changeBPM": false
+		},
+		{
+			"sectionBeats": 4,
+			"altAnim": false,
+			"mustHitSection": true,
+			"typeOfSection": 0,
+			"sectionNotes": [
+				[118000, 3, 0],
+				[118000, 4, 125],
+				[118062.5, 2, 0],
+				[118250, 0, 0],
+				[118500, 1, 0],
+				[118750, 3, 0],
+				[118812.5, 2, 0],
+				[119000, 1, 0],
+				[119062.5, 0, 0],
+				[119125, 3, 0],
+				[119250, 1, 0],
+				[119250, 5, 0],
+				[119375, 2, 0],
+				[119375, 6, 0],
+				[119500, 1, 0],
+				[119500, 5, 0],
+				[119625, 0, 0],
+				[119750, 2, 125],
+				[119750, 6, 0]
+			],
+			"gfSection": false,
+			"bpm": 120,
+			"changeBPM": false
+		},
+		{
+			"sectionBeats": 4,
+			"altAnim": false,
+			"mustHitSection": false,
+			"sectionNotes": [
+				[120000, 5, 0, "Alt Animation"],
+				[120250, 5, 0, "Alt Animation"],
+				[120500, 6, 0, "Alt Animation"],
+				[120750, 5, 0, "Alt Animation"],
+				[120875, 6, 0, "Alt Animation"],
+				[121000, 5, 0, "Alt Animation"],
+				[121125, 7, 0],
+				[121250, 6, 0, "Alt Animation"],
+				[121500, 5, 0, "Alt Animation"],
+				[121625, 6, 0, "Alt Animation"],
+				[121750, 4, 0],
+				[121875, 7, 0]
+			],
+			"typeOfSection": 0,
+			"gfSection": false,
+			"changeBPM": false,
+			"bpm": 120
+		},
+		{
+			"sectionBeats": 4,
+			"altAnim": false,
+			"mustHitSection": false,
+			"typeOfSection": 0,
+			"sectionNotes": [
+				[122000, 5, 0, "Alt Animation"],
+				[122250, 5, 0, "Alt Animation"],
+				[122375, 5, 0, "Alt Animation"],
+				[122500, 6, 0, "Alt Animation"],
+				[122750, 5, 0, "Alt Animation"],
+				[122875, 6, 0, "Alt Animation"],
+				[123000, 5, 0, "Alt Animation"],
+				[123125, 7, 0],
+				[123250, 6, 0, "Alt Animation"],
+				[123375, 4, 0],
+				[123500, 5, 0, "Alt Animation"],
+				[123625, 6, 0, "Alt Animation"],
+				[123750, 4, 0],
+				[123875, 5, 0, "Alt Animation"]
+			],
+			"gfSection": false,
+			"bpm": 120,
+			"changeBPM": false
+		},
+		{
+			"sectionBeats": 4,
+			"altAnim": false,
+			"mustHitSection": true,
+			"sectionNotes": [
+				[124000, 1, 0, "Alt Animation"],
+				[124250, 1, 0, "Alt Animation"],
+				[124500, 2, 0, "Alt Animation"],
+				[124750, 1, 0, "Alt Animation"],
+				[124875, 2, 0, "Alt Animation"],
+				[125000, 1, 0, "Alt Animation"],
+				[125125, 3, 0, "Alt Animation"],
+				[125250, 2, 0, "Alt Animation"],
+				[125500, 1, 0, "Alt Animation"],
+				[125625, 2, 0, "Alt Animation"],
+				[125750, 0, 0],
+				[125875, 3, 0, "Alt Animation"]
+			],
+			"typeOfSection": 0,
+			"gfSection": false,
+			"changeBPM": false,
+			"bpm": 120
+		},
+		{
+			"sectionBeats": 4,
+			"altAnim": false,
+			"mustHitSection": true,
+			"typeOfSection": 0,
+			"sectionNotes": [
+				[126000, 1, 0, "Alt Animation"],
+				[126250, 1, 0, "Alt Animation"],
+				[126375, 1, 0, "Alt Animation"],
+				[126500, 2, 0, "Alt Animation"],
+				[126750, 1, 0, "Alt Animation"],
+				[126875, 2, 0, "Alt Animation"],
+				[127000, 1, 0, "Alt Animation"],
+				[127125, 3, 0, "Alt Animation"],
+				[127250, 2, 0, "Alt Animation"],
+				[127375, 0, 0],
+				[127500, 1, 0, "Alt Animation"],
+				[127625, 2, 0, "Alt Animation"],
+				[127750, 0, 0],
+				[127875, 1, 0, "Alt Animation"]
+			],
+			"gfSection": false,
+			"bpm": 120,
+			"changeBPM": false
+		},
+		{
+			"sectionBeats": 4,
+			"altAnim": false,
+			"mustHitSection": true,
+			"typeOfSection": 0,
+			"sectionNotes": [],
+			"gfSection": false,
+			"bpm": 120,
+			"changeBPM": false
+		}
+	],
+	"player2": "sagu",
+	"gfVersion": "barbara-fresher",
+	"player3": "barbara-blue-fresher",
+	"song": "Fresher",
+	"cameraMove": {
+		"offset": 30,
+		"speed": 1,
+		"intensity": 1,
+		"enabled": false
+	},
+	"stage": "balada",
+	"validScore": true,
+	"needsVoices": true,
+	"format": "viroviroice_v1",
+	"bpm": 120,
+	"speed": 2.4
+}

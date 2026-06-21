@@ -1,0 +1,162 @@
+{
+	"events": [
+		[
+			0,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			4363.63636363636,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			6545.45454545454,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			8727.27272727273,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			13090.9090909091,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			17454.5454545455,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			21818.1818181818,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			26181.8181818182,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			30545.4545454545,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			34909.0909090909,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			39272.7272727273,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			39272.7272727273,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			42000,
+			[
+				["Focus Camera", "dad, 0, 0", "quadOut, 8"]
+			]
+		],
+		[
+			42545.4545454545,
+			[
+				["Play Animation", "thatshow", "dad"]
+			]
+		],
+		[
+			44181.8181818182,
+			[
+				["Add Camera Zoom", "0.04", "-0.03"]
+			]
+		],
+		[
+			48000,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			52363.6363636364,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			56727.2727272727,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			61090.9090909091,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			65454.5454545455,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			69272.7272727273,
+			[
+				["Play Animation", "nice", "dad"]
+			]
+		],
+		[
+			69818.1818181818,
+			[
+				["Focus Camera", "dad, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			74181.8181818182,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		],
+		[
+			78545.4545454545,
+			[
+				["Add Camera Zoom", "0.02", "0.035"],
+				["Camera Module Bop", "0.015", "0, 0"]
+			]
+		],
+		[
+			80727.2727272727,
+			[
+				["Focus Camera", "1, 215, 50", "quadOut, 32"]
+			]
+		],
+		[
+			85090.9090909091,
+			[
+				["Focus Camera", "bf, 0, 0", "classic, 0"]
+			]
+		]
+	],
+	"format": "psych_v1"
+}

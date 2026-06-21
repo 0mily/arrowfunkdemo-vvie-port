@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character assetPath="chrs/week1/main" icon="sagu" scale="1" singDuration="8" x="-70" y="0" cameraX="0" cameraY="0" flipX="false" noAntialiasing="false" healthColor="#93539B" vocalsFile="" vsliceHolds="false">
+	<assets>
+		<asset path="chrs/week1/main"/>
+	</assets>
+	<animations>
+		<anim id="singLEFT" symbol="Sagu NOTE LEFT" fps="24" loop="false" x="111" y="1" playerX="111" playerY="1"/>
+		<anim id="singDOWN" symbol="Sagu NOTE DOWN" fps="24" loop="false" x="-14" y="1" playerX="-14" playerY="1"/>
+		<anim id="singUP" symbol="Sagu NOTE UP" fps="24" loop="false" x="-56" y="64" playerX="-56" playerY="64"/>
+		<anim id="singRIGHT" symbol="Sagu NOTE RIGHT" fps="24" loop="false" x="-55" y="5" playerX="-55" playerY="5"/>
+		<anim id="singDOWN-alt" symbol="Sagu BB DOWN" fps="24" loop="false" x="-25" y="0" playerX="-25" playerY="0"/>
+		<anim id="singUP-alt" symbol="Sagu BB UP" fps="24" loop="false" x="-11" y="67" playerX="-11" playerY="67"/>
+		<anim id="idle" symbol="Sagu IDLE DNACE" fps="24" loop="false" x="-45" y="0" playerX="-45" playerY="0"/>
+		<anim id="idle-loop" symbol="Sagu IDLE DNACE" fps="24" loop="true" x="-45" y="0" playerX="-45" playerY="0" indices="12,13,14,15"/>
+	</animations>
+</character>

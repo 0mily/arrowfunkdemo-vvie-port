@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character assetPath="chrs/week1/main-fire" icon="sagu" scale="1" singDuration="6.1" x="-70" y="0" cameraX="0" cameraY="0" flipX="false" noAntialiasing="false" healthColor="#93539B" vocalsFile="" vsliceHolds="false">
+	<assets>
+		<asset path="chrs/week1/main-fire"/>
+	</assets>
+	<animations>
+		<anim id="singLEFT" symbol="Sagu NOTE LEFT" fps="24" loop="false" x="222" y="0" playerX="222" playerY="0"/>
+		<anim id="singDOWN" symbol="Sagu NOTE DOWN" fps="24" loop="false" x="36" y="-1" playerX="36" playerY="-1"/>
+		<anim id="singUP" symbol="Sagu NOTE UP" fps="24" loop="false" x="47" y="63" playerX="47" playerY="63"/>
+		<anim id="singRIGHT" symbol="Sagu NOTE RIGHT" fps="24" loop="false" x="-4" y="4" playerX="-4" playerY="4"/>
+		<anim id="idle" symbol="Sagu IDLE DNACE" fps="24" loop="false" x="0" y="0" playerX="0" playerY="0"/>
+		<anim id="throwmic" symbol="Sagu mic throw" fps="24" loop="false" x="84" y="136" playerX="84" playerY="136"/>
+		<anim id="idle-loop" symbol="Sagu IDLE DNACE" fps="24" loop="true" x="0" y="0" playerX="0" playerY="0" indices="11,12,13,14,15,16,17,18,19"/>
+		<anim id="killer" symbol="Sagu KILLER" fps="24" loop="false" x="146" y="12" playerX="146" playerY="12"/>
+	</animations>
+</character>

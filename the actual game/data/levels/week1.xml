@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level storyName="SAGU DE UVA" weekName="week 1" background="week1" unlockAfter="tutorial" startUnlocked="true" hiddenUntilUnlocked="false" hideStoryMode="false" hideFreeplay="false" difficulties="">
+	<characters opponent="" boyfriend="" girlfriend=""/>
+	<songs>
+		<song name="Reboop" icon="sagu" color="#A656FD"/>
+		<song name="Fresher" icon="sagu" color="#A656FD"/>
+		<song name="Rap KING" icon="sagu" color="#A656FD"/>
+	</songs>
+</level>

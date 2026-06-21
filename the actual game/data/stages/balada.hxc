@@ -1,0 +1,6 @@
+var ata = 8; // 8
+
+function onLoad() {
+    //curtinas.blend = ata;
+    overlay.blend = ata;
+}

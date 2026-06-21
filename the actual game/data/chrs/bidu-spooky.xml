@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character assetPath="chrs/bidu/main-spooky_virus" icon="bidu" scale="1" singDuration="4" x="70" y="350" cameraX="20" cameraY="10" flipX="true" noAntialiasing="false" healthColor="#A0FF21" vocalsFile="" vsliceHolds="false">
+	<assets>
+		<asset path="chrs/bidu/main-spooky_virus"/>
+	</assets>
+	<animations>
+		<anim id="idle" symbol="BIDU idle dance" fps="24" loop="false" x="0" y="0" playerX="0" playerY="0"/>
+		<anim id="singLEFT" symbol="BIDU NOTE LEFT0" fps="24" loop="false" x="131" y="0" playerX="131" playerY="0"/>
+		<anim id="singDOWN" symbol="BIDU NOTE DOWN0" fps="24" loop="false" x="10" y="-44" playerX="10" playerY="-44"/>
+		<anim id="singUP" symbol="BIDU NOTE UP0" fps="24" loop="false" x="38" y="42" playerX="38" playerY="42"/>
+		<anim id="singRIGHT" symbol="BIDU NOTE RIGHT0" fps="24" loop="false" x="-27" y="-4" playerX="-27" playerY="-4"/>
+		<anim id="singLEFTmiss" symbol="BIDU NOTE LEFT MISS" fps="24" loop="false" x="116" y="-1" playerX="116" playerY="-1"/>
+		<anim id="singDOWNmiss" symbol="BIDU NOTE DOWN MISS" fps="24" loop="false" x="13" y="-46" playerX="13" playerY="-46"/>
+		<anim id="singUPmiss" symbol="BIDU NOTE UP MISS" fps="24" loop="false" x="43" y="42" playerX="43" playerY="42"/>
+		<anim id="singRIGHTmiss" symbol="BIDU NOTE RIGHT MISS0" fps="24" loop="false" x="-14" y="-3" playerX="-14" playerY="-3"/>
+		<anim id="hey" symbol="BIDU HEY!!" fps="24" loop="false" x="-10" y="-32" playerX="-10" playerY="-32"/>
+		<anim id="coolswag" symbol="BIDU coolswag" fps="24" loop="false" x="105" y="111" playerX="105" playerY="111"/>
+		<anim id="damage" symbol="BIDU VIRUS DAMAGE" fps="24" loop="false" x="100" y="-16" playerX="100" playerY="-16"/>
+	</animations>
+</character>

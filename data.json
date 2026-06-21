@@ -1,0 +1,12 @@
+{
+    "name": "ArrowFUNK - Birthday Remaster",
+    "description": "Arrow Funk is a Friday Night Funkin' \"Remix\" mod\n\nbased on a Brazilian Youtube Video about Guessing Characters names:\n\nhttps://www.youtube.com/watch?v=9MdqEWp0YC8&t=52s&ab_channel=PaiTroll",
+    "version": "2.0 DEMO",
+    "author": "Yoisabo",
+    "DiscordRPC": "1341812014577618985",
+    "addons":
+    {
+        "allowAddons": false,
+        "addonPrefix": ""
+    }
+}
