@@ -1,0 +1,5 @@
+function onCreatePost() {
+    var kevin:Int = PlayState.instance.members.indexOf(PlayState.instance.dadGroup);
+    PlayState.instance.remove(PlayState.instance.boyfriendGroup, true);
+    PlayState.instance.insert(kevin + 1, PlayState.instance.boyfriendGroup);
+}

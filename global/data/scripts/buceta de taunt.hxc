@@ -1,0 +1,31 @@
+import flixel.FlxG;
+
+// nashira que se foda vc eu nn faço a menor das ideia como funfa blz? </3
+
+var broS:Array<String> = ['bidu'];
+var notBro:Bool = false;
+
+function onMoveCamera(target:String) {
+    notBro = (target == 'dad' || target == 'opponent');
+}
+
+function onUpdate(elapsed:Float) {
+    if (PlayState.instance == null || boyfriend == null) return;
+    if (!broS.contains(boyfriend.curCharacter)) return;
+    var spillingFax:Bool = false;
+    if (boyfriend.animation.curAnim != null) {
+
+        spillingFax = boyfriend.animation.curAnim.name.indexOf('sing') == 0; // amem
+        preguica = boyfriend.animation.curAnim.name.indexOf('coolswag') == 0;
+    }
+
+    var acc:Float = PlayState.instance.ratingPercent * 100;
+
+    if ((acc > 98 && notBro && !spillingFax && !preguica) || acc == 0 && !preguica) {
+        if (FlxG.keys.justPressed.SPACE) {
+            boyfriend.playAnim('coolswag', true);
+            boyfriend.specialAnim = true;
+            FlxG.sound.play(Paths.gameSound('emote'), 1);
+        }
+    }
+}
