@@ -14,5 +14,5 @@
 
 get all the music from Birthday Special DEMO but in our engine!!!!
 
-sinceramente se a Nashira quiser q nois remova isso, estou perfeitamente de boa com isso!!! Isso é mais um port de exemplo em como as pessoas podem fazer mods na Engine
+i am officially allowed to port this mod btw.
 
