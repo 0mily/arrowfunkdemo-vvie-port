@@ -1,0 +1,16 @@
+Countdown sounds are organized by Stage UI.
+
+Use this structure:
+
+sounds/game/countdown/<uiName>/<soundName>.ogg
+
+Examples:
+
+sounds/game/countdown/default/intro1.ogg
+sounds/game/countdown/default/intro2.ogg
+sounds/game/countdown/default/intro3.ogg
+sounds/game/countdown/default/introGo.ogg
+sounds/game/countdown/pixel/intro1.ogg
+sounds/game/countdown/pixel/introGo.ogg
+
+"normal" Stage UI uses the default folder. Pixel UI uses the pixel folder.

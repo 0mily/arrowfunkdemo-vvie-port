@@ -1,0 +1,35 @@
+import flixel.FlxG;
+import states.MainMenuState;
+import backend.MusicBeatState;
+
+var textin:Alphabet;
+
+var beatTimer:Float = 0.0;
+var beatInterval:Float = 60.0 / 148.0;
+
+function onCreate() {
+    FlxG.sound.playMusic(Paths.menuMusic('AFmenu'), 1, true);
+
+    textin = new Alphabet(0, 0, 'Érou fãnqui', true, false, 0.0, 0.5);
+    textin.cameras = [camGame];
+    textin.screenCenter();
+
+    add(textin);
+}
+
+function onUpdate(elapsed:Float) {
+    if (FlxG.keys.justPressed.ESCAPE) {
+        MusicBeatState.switchState(new MainMenuState());
+    }
+
+    beatTimer += elapsed;
+
+    if (beatTimer >= beatInterval) { // o condutor.bpm nn funciona e eu tive q improvisar
+        beatTimer -= beatInterval;
+        camGame.zoom += 0.035;
+    }
+
+    if (camGame.zoom > 1) {
+        camGame.zoom = camGame.zoom + (1 - camGame.zoom) * (elapsed * 8);
+    }
+}
