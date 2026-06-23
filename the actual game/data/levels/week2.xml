@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level storyName="Frick and Freak" weekName="Week 2" background="week2" unlockAfter="week1" startUnlocked="true" hiddenUntilUnlocked="false" hideStoryMode="false" hideFreeplay="false" difficulties="">
+	<characters opponent="" boyfriend="" girlfriend=""/>
+	<songs>
+		<song name="Bittersweet" icon="kids" color="#1447C3"/>
+		<song name="Nightfall" icon="kids" color="#1447C3"/>
+		<song name="Virus" icon="virus" color="#0E5B87"/>
+	</songs>
+</level>

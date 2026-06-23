@@ -2,7 +2,7 @@ import flixel.FlxG;
 
 // nashira que se foda vc eu nn faço a menor das ideia como funfa blz? </3
 
-var broS:Array<String> = ['bidu'];
+var broS:Array<String> = ['bidu', 'bidu-spooky'];
 var notBro:Bool = false;
 
 function onMoveCamera(target:String) {

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character assetPath="chrs/week2/morte e abobora/main_virus" icon="kids" scale="1" singDuration="4.4" x="-70" y="160" cameraX="70" cameraY="-10" flipX="false" noAntialiasing="false" healthColor="#2F50A1" vocalsFile="" vsliceHolds="false">
+	<assets>
+		<asset path="chrs/week2/morte e abobora/main_virus"/>
+	</assets>
+	<animations>
+		<anim id="singLEFT" symbol="spooky left" fps="24" loop="false" x="89" y="-32" playerX="89" playerY="-32"/>
+		<anim id="singLEFT-alt" symbol="spooky virus left" fps="24" loop="false" x="458" y="-162" playerX="458" playerY="-162"/>
+		<anim id="singRIGHT" symbol="spooky right" fps="24" loop="false" x="66" y="-54" playerX="66" playerY="-54"/>
+		<anim id="singRIGHT-alt" symbol="spooky virus right" fps="24" loop="false" x="96" y="-56" playerX="96" playerY="-56"/>
+		<anim id="singDOWN" symbol="spooky down" fps="24" loop="false" x="106" y="-122" playerX="106" playerY="-122"/>
+		<anim id="danceLeft" symbol="spooky dance left" fps="24" loop="false" x="91" y="50" playerX="91" playerY="50"/>
+		<anim id="danceRight" symbol="spooky dance right" fps="24" loop="false" x="-43" y="44" playerX="-43" playerY="44"/>
+		<anim id="singUP" symbol="spooky up" fps="24" loop="false" x="113" y="172" playerX="113" playerY="172"/>
+		<anim id="singUP-alt" symbol="spooky virus up" fps="24" loop="false" x="167" y="166" playerX="167" playerY="166"/>
+	</animations>
+</character>

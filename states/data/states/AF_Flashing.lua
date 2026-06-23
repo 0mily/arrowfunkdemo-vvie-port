@@ -4,6 +4,8 @@ local lang = ''
 local assets = {} 
 local sure = false
 local buceta = false
+local ptbr = false
+local avisoDoMal = 210
 
 function onCreate()
     stopSound('')
@@ -18,6 +20,8 @@ end
 function af.configurarIdiomas()
     if lang == 'pt-BR' then
         assets.warning = 'flashing/warn-pt'
+        ptbr = true
+        avisoDoMal = 187
     else
         assets.warning = 'flashing/warn-en'
     end
@@ -27,8 +31,8 @@ function onCreatePost()
     af.confgKKKK()
     
     local lado = 10
-    local targetX = 1280 - getProperty('bidu.width') - lado - 6
-    local posY = 720 - getProperty('bidu.height') - lado + 3
+    local targetX = 1280 - getProperty('bidu.width') - lado + 89 -- esse cu do nada ficou errado!!!
+    local posY = 720 - getProperty('bidu.height') - lado + 26
     
     setProperty('bidu.x', 1300)
     setProperty('bidu.y', posY)
@@ -37,7 +41,7 @@ function onCreatePost()
     setProperty('enter.y', 533)
 
     doTweenX('biduVino', 'bidu', targetX, 0.8, 'expoOut')
-    doTweenY('warninVino', 'warning', 210, 0.8, 'expoOut')
+    doTweenY('warninVino', 'warning', avisoDoMal, 0.8, 'expoOut')
     doTweenY('warninVinotext', 'warnshit', 303, 0.8, 'expoOut')
     doTweenY('entertext', 'enter', 423, 0.8, 'expoOut')
 end
@@ -54,7 +58,8 @@ function af.shitPooPooBiduzin()
     scaleObject('bidu', 0.8, 0.8, true)
 
     makeLuaSprite('warning', assets.warning, 0, 0)
-    screenCenter('warning', 'x');
+    if not ptbr then screenCenter('warning', 'x'); end
+
     updateHitbox('warning')
     addLuaSprite('warning')
 
@@ -74,6 +79,15 @@ function af.shitPooPooBiduzin()
     setTextFont('enter', 'hey.ttf')
     setTextBorder('enter', 1, 'FF0000', 'none')
     addLuaText('enter')
+
+    -- =========================================
+-- não sei se tem maneira melhor de fazer isso
+-- =========================================
+    if ptbr then
+        setProperty('warning.x', 428)
+        setTextString('warnshit', 'Esse mod pode\nconter Luzes piscantes,\nCores Coloridas e coisas assim');
+        setTextString('enter', 'Pressione ENTER para continuar')
+    end
 
 end
 
@@ -115,7 +129,7 @@ function onUpdate()
 
     if keyJustPressed('accept') and buceta == false then
         if sure == false then
-            setTextString('enter', 'Are you sure?');
+            if not ptbr then setTextString('enter', 'Are you sure?'); else setTextString('enter', 'Tem certeza?'); end
             setTextColor('enter', 'FF0000')
             playSound('pause', 1)
             sure = true

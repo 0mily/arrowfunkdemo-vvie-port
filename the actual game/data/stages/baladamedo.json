@@ -1,19 +1,251 @@
 {
-	"directory": "week2",
-	"defaultZoom": 0.56,
+	"camera_boyfriend": [
+		-50,
+		-80
+	],
+	"_editorMeta": {
+		"boyfriend": "bidu-spooky",
+		"gf": "gf",
+		"dad": "kids"
+	},
 	"isPixelStage": false,
-
-	"boyfriend": [850, 40],
-	"girlfriend": [300, 70],
-	"opponent": [0, 38],
+	"objects": [
+		{
+			"x": -896,
+			"y": -793,
+			"scale": [
+				2,
+				2
+			],
+			"image": "bgs/baladamedo/layer0",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "fundo",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				0.9,
+				0.9
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -896,
+			"y": -793,
+			"scale": [
+				2,
+				2
+			],
+			"image": "bgs/baladamedo/layer1",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "floor",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -118,
+			"y": 583,
+			"scale": [
+				1,
+				1
+			],
+			"image": "bgs/baladamedo/dancefloor",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "tapete",
+			"firstAnimation": "floor",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 0,
+			"animations": [
+				{
+					"offsets": null,
+					"indices": [],
+					"fps": 1,
+					"anim": "floor",
+					"loop": true,
+					"name": "floor"
+				}
+			],
+			"type": "animatedSprite"
+		},
+		{
+			"x": -896,
+			"y": -793,
+			"scale": [
+				2,
+				1.95
+			],
+			"image": "bgs/baladamedo/layer2",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "detalhes",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -706,
+			"y": -9,
+			"scale": [
+				1,
+				1
+			],
+			"image": "bgs/baladamedo/spookers",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "radios",
+			"firstAnimation": "beatHit",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"animations": [
+				{
+					"offsets": null,
+					"indices": [],
+					"fps": 24,
+					"anim": "beatHit",
+					"loop": false,
+					"name": "SPEAKERS"
+				}
+			],
+			"type": "animatedSprite"
+		},
+		{
+			"type": "gf"
+		},
+		{
+			"type": "dad"
+		},
+		{
+			"type": "boyfriend"
+		},
+		{
+			"x": 500,
+			"y": -802,
+			"scale": [
+				1,
+				1
+			],
+			"image": "bgs/baladamedo/bola",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "bola",
+			"firstAnimation": "girar",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"animations": [
+				{
+					"offsets": null,
+					"indices": [],
+					"fps": 24,
+					"anim": "girar",
+					"loop": true,
+					"name": "giragira"
+				}
+			],
+			"type": "animatedSprite"
+		},
+		{
+			"x": -851,
+			"y": -867,
+			"scale": [
+				1,
+				1
+			],
+			"image": "bgs/baladamedo/overlay",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "overlay",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		}
+	],
+	"camera_girlfriend": [
+		150,
+		-50
+	],
+	"defaultZoom": 0.61,
+	"camera_opponent": [
+		50,
+		-20
+	],
 	"hide_girlfriend": false,
-	"timebar_color": [74, 95, 214],
-
-	"camera_boyfriend": [0, 0],
-	"camera_opponent": [0, 0],
-	"camera_girlfriend": [0, 0],
+	"scroll_boyfriend": [
+		0.9,
+		0.9
+	],
+	"boyfriend": [
+		828,
+		-47
+	],
+	"girlfriend": [
+		293,
+		-28
+	],
+	"timebar_color": [
+		74,
+		95,
+		214
+	],
+	"scroll_girlfriend": [
+		0.9,
+		0.9
+	],
+	"opponent": [
+		-5,
+		-32
+	],
+	"directory": "week2",
 	"camera_speed": 1,
-	"scroll_boyfriend": [0.9, 0.9],
-	"scroll_opponent": [0.9, 0.9],
-	"scroll_girlfriend": [0.9, 0.9]
+	"scroll_opponent": [
+		0.9,
+		0.9
+	]
 }

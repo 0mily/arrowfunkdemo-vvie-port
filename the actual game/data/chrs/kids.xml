@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character assetPath="chrs/week2/morte e abobora/main" icon="kids" scale="1" singDuration="4.4" x="-70" y="160" cameraX="70" cameraY="-10" flipX="false" noAntialiasing="false" healthColor="#2F50A1" vocalsFile="" vsliceHolds="false">
+	<assets>
+		<asset path="chrs/week2/morte e abobora/main"/>
+	</assets>
+	<animations>
+		<anim id="singLEFT" symbol="spooky left" fps="24" loop="false" x="89" y="-32" playerX="89" playerY="-32"/>
+		<anim id="singRIGHT" symbol="spooky right" fps="24" loop="false" x="96" y="6" playerX="96" playerY="6"/>
+		<anim id="singDOWN" symbol="spooky down" fps="24" loop="false" x="106" y="-122" playerX="106" playerY="-122"/>
+		<anim id="danceLeft" symbol="spooky dance left" fps="24" loop="false" x="91" y="50" playerX="91" playerY="50"/>
+		<anim id="danceRight" symbol="spooky dance right" fps="24" loop="false" x="-43" y="44" playerX="-43" playerY="44"/>
+		<anim id="singUP" symbol="spooky up" fps="24" loop="false" x="113" y="172" playerX="113" playerY="172"/>
+		<anim id="hey" symbol="spooky hey" fps="24" loop="false" x="99" y="124" playerX="99" playerY="124"/>
+	</animations>
+</character>

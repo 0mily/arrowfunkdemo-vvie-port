@@ -5,8 +5,8 @@
 	],
 	"_editorMeta": {
 		"boyfriend": "bidu",
-		"dad": "sagu",
-		"gf": "barbara"
+		"gf": "barbara",
+		"dad": "sagu"
 	},
 	"isPixelStage": false,
 	"objects": [
@@ -153,8 +153,8 @@
 		}
 	],
 	"camera_girlfriend": [
-		0,
-		0
+		165,
+		-100
 	],
 	"defaultZoom": 0.66,
 	"camera_opponent": [

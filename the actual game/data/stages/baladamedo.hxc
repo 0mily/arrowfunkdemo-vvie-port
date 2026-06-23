@@ -1,0 +1,17 @@
+var ata = 0; // 12
+
+function onLoad() {
+    //radios.blend = ata;
+    overlay.blend = ata;
+}
+
+function onSongStart() {
+    if (songName != 'bittersweet') {
+        FlxTween.tween(tapete, {alpha: 1}, 2, {ease: FlxEase.expoOut});
+    }
+}
+
+function onBeatHit() {
+    radios.playAnim('beatHit', false);
+
+}

@@ -6,6 +6,25 @@ function onCreatePost() {
     // que felicidade, eu sei programar
 }
 
+function onUpdatePost(elapsed) {
+    // winning icons todo maldito antes dos json e frames
+    if (health < 0.4) {
+        setIconFrame(0, 2); 
+    } else if (health > 1.6) {
+        setIconFrame(0, 1);
+    } else {
+        setIconFrame(0, 0);
+    }
+
+    if (health > 1.6) {
+        setIconFrame(1, 2);
+    } else if (health < 0.4) {
+        setIconFrame(1, 1);
+    } else {
+        setIconFrame(1, 0);
+    }
+}
+
 function onBeatHit() {
     if (curBeat % 2 == 0) {
         iconP1.scale.set(1.07, 1.07);

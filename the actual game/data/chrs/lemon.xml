@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character assetPath="chrs/week2/podre/main" icon="virus" scale="1" singDuration="4" x="-334" y="-302" cameraX="-300" cameraY="-120" flipX="false" noAntialiasing="false" healthColor="#050B1A" vocalsFile="" vsliceHolds="false">
+	<assets>
+		<asset path="chrs/week2/podre/main"/>
+	</assets>
+	<animations>
+		<anim id="singDOWN" symbol="virus down0" fps="24" loop="false" x="350" y="-330" playerX="350" playerY="-330"/>
+		<anim id="singLEFT" symbol="virus right0" fps="24" loop="false" x="395" y="-97" playerX="395" playerY="-97"/>
+		<anim id="singRIGHT" symbol="virus left0" fps="24" loop="false" x="-45" y="-26" playerX="-45" playerY="-26"/>
+		<anim id="singUP" symbol="virus up0" fps="24" loop="false" x="100" y="362" playerX="100" playerY="362"/>
+		<anim id="idle" symbol="virus idle" fps="24" loop="false" x="0" y="-9" playerX="0" playerY="-9"/>
+		<anim id="leave" symbol="virus leave" fps="24" loop="false" x="353" y="730" playerX="353" playerY="730"/>
+	</animations>
+</character>
