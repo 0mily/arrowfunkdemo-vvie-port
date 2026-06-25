@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="stupidgirl.png">
+	<!-- Created with Adobe Animate version 18.0.1.115 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="stupidgirl instance 10000" x="0" y="0" width="480" height="665" pivotX="45.35" pivotY="71.75"/>
+	<SubTexture name="stupidgirl instance 10001" x="0" y="0" width="480" height="665"/>
+	<SubTexture name="stupidgirl instance 10002" x="0" y="0" width="480" height="665"/>
+	<SubTexture name="stupidgirl instance 10003" x="485" y="0" width="480" height="665"/>
+	<SubTexture name="stupidgirl instance 10004" x="485" y="0" width="480" height="665"/>
+	<SubTexture name="stupidgirl instance 10005" x="485" y="0" width="480" height="665"/>
+</TextureAtlas>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="machine loading.png">
+	<!-- Created with Adobe Animate version 18.0.2.126 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="loading0000" x="0" y="0" width="330" height="585" pivotX="0" pivotY="0"/>
+	<SubTexture name="loading0001" x="0" y="0" width="330" height="585"/>
+	<SubTexture name="loading0002" x="335" y="0" width="330" height="585"/>
+	<SubTexture name="loading0003" x="335" y="0" width="330" height="585"/>
+	<SubTexture name="loading0004" x="670" y="0" width="330" height="585"/>
+	<SubTexture name="loading0005" x="670" y="0" width="330" height="585"/>
+	<SubTexture name="loading0006" x="0" y="590" width="330" height="585"/>
+	<SubTexture name="loading0007" x="0" y="590" width="330" height="585"/>
+	<SubTexture name="loading0008" x="335" y="590" width="330" height="585"/>
+	<SubTexture name="loading0009" x="335" y="590" width="330" height="585"/>
+	<SubTexture name="loading0010" x="0" y="0" width="330" height="585"/>
+	<SubTexture name="loading0011" x="0" y="0" width="330" height="585"/>
+	<SubTexture name="loading0012" x="335" y="0" width="330" height="585"/>
+	<SubTexture name="loading0013" x="335" y="0" width="330" height="585"/>
+	<SubTexture name="loading0014" x="670" y="0" width="330" height="585"/>
+	<SubTexture name="loading0015" x="670" y="0" width="330" height="585"/>
+	<SubTexture name="loading0016" x="0" y="590" width="330" height="585"/>
+	<SubTexture name="loading0017" x="0" y="590" width="330" height="585"/>
+	<SubTexture name="loading0018" x="335" y="590" width="330" height="585"/>
+	<SubTexture name="loading0019" x="335" y="590" width="330" height="585"/>
+</TextureAtlas>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="layerfoda.png">
+	<!-- Created with Adobe Animate version 18.0.1.115 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="layerfoda0000" x="0" y="0" width="749" height="1171" pivotX="0" pivotY="370.4" frameX="0" frameY="0" frameWidth="750" frameHeight="1178"/>
+	<SubTexture name="layerfoda0001" x="0" y="0" width="749" height="1171" frameX="0" frameY="0" frameWidth="750" frameHeight="1178"/>
+	<SubTexture name="layerfoda0002" x="0" y="0" width="749" height="1171" frameX="0" frameY="0" frameWidth="750" frameHeight="1178"/>
+	<SubTexture name="layerfoda0003" x="0" y="0" width="749" height="1171" frameX="0" frameY="0" frameWidth="750" frameHeight="1178"/>
+	<SubTexture name="layerfoda0004" x="0" y="1176" width="743" height="1178" frameX="0" frameY="0" frameWidth="750" frameHeight="1178"/>
+	<SubTexture name="layerfoda0005" x="0" y="1176" width="743" height="1178" frameX="0" frameY="0" frameWidth="750" frameHeight="1178"/>
+	<SubTexture name="layerfoda0006" x="0" y="1176" width="743" height="1178" frameX="0" frameY="0" frameWidth="750" frameHeight="1178"/>
+	<SubTexture name="layerfoda0007" x="0" y="1176" width="743" height="1178" frameX="0" frameY="0" frameWidth="750" frameHeight="1178"/>
+	<SubTexture name="layerfoda0008" x="0" y="2359" width="750" height="1151" frameX="0" frameY="0" frameWidth="750" frameHeight="1178"/>
+	<SubTexture name="layerfoda0009" x="0" y="2359" width="750" height="1151" frameX="0" frameY="0" frameWidth="750" frameHeight="1178"/>
+	<SubTexture name="layerfoda0010" x="0" y="2359" width="750" height="1151" frameX="0" frameY="0" frameWidth="750" frameHeight="1178"/>
+	<SubTexture name="layerfoda0011" x="0" y="2359" width="750" height="1151" frameX="0" frameY="0" frameWidth="750" frameHeight="1178"/>
+	<SubTexture name="layerfoda0012" x="0" y="0" width="749" height="1171" frameX="0" frameY="0" frameWidth="750" frameHeight="1178"/>
+</TextureAtlas>

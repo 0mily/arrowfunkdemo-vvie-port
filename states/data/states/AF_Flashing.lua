@@ -104,7 +104,7 @@ function ficaBrancoPorra()
     cameraFlash('game', 'FFFFFF', 0.5)
     setProperty('camGame.zoom', 1.1)
     doTweenZoom('legal', 'game', 1, 1.3, 'expoOut')
-    playSound('confirmMenu', 1)
+    playSound('general/confirmMenu', 1)
     runTimer('indoali', 0.7)
     runTimer('aaa', 0.46)
     runTimer('ibora', 3.5)
@@ -114,7 +114,9 @@ function onTimerCompleted(tag, loops, loopsLeft)
     if tag == 'indoali' then
         cameraFade('game', 'FFFFFF',1.7, true)
     elseif tag == 'aaa' then
-        playSound('AAAAAAAAAAAA', 1, 'aaa')
+        playSound('AAAAAAAAAAAA', 0, 'aaa')
+        doTweenVolume('aaa', 'aaa', 1, 3, 'cubeOut')
+        
     elseif tag == 'ibora' then
         loadState('AF_TitleState')
     end
@@ -124,7 +126,7 @@ end
 
 function onUpdate()
     if keyJustPressed('back') then
-        switchState('MainMenuState')
+        loadState('MainMenuState')
     end
 
     if keyJustPressed('accept') and buceta == false then

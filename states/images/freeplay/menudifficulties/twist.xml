@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="twist.png">
+	<!-- Created with Adobe Animate version 18.0.2.126 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="shitoff0000" x="0" y="0" width="383" height="214" pivotX="27" pivotY="51.8"/>
+	<SubTexture name="shitoff0001" x="0" y="0" width="383" height="214"/>
+	<SubTexture name="shitoff0002" x="388" y="0" width="383" height="214"/>
+	<SubTexture name="shitoff0003" x="388" y="0" width="383" height="214"/>
+	<SubTexture name="shitoff0004" x="0" y="219" width="383" height="214"/>
+	<SubTexture name="shitoff0005" x="0" y="219" width="383" height="214"/>
+	<SubTexture name="shitoff0006" x="388" y="219" width="383" height="214"/>
+	<SubTexture name="shitoff0007" x="388" y="219" width="383" height="214"/>
+	<SubTexture name="shitoff0008" x="0" y="438" width="383" height="214"/>
+	<SubTexture name="shitoff0009" x="0" y="438" width="383" height="214"/>
+	<SubTexture name="shitoff0010" x="388" y="438" width="383" height="214"/>
+	<SubTexture name="shitoff0011" x="388" y="438" width="383" height="214"/>
+	<SubTexture name="shitoff0012" x="0" y="657" width="383" height="214"/>
+	<SubTexture name="shitoff0013" x="0" y="657" width="383" height="214"/>
+	<SubTexture name="shitoff0014" x="388" y="657" width="383" height="214"/>
+	<SubTexture name="shitoff0015" x="388" y="657" width="383" height="214"/>
+	<SubTexture name="shiton0000" x="0" y="876" width="383" height="214" pivotX="27" pivotY="51.8"/>
+	<SubTexture name="shiton0001" x="0" y="876" width="383" height="214"/>
+	<SubTexture name="shiton0002" x="388" y="876" width="383" height="214"/>
+	<SubTexture name="shiton0003" x="0" y="1095" width="383" height="214"/>
+	<SubTexture name="shiton0004" x="388" y="1095" width="383" height="214"/>
+	<SubTexture name="shiton0005" x="388" y="1095" width="383" height="214"/>
+	<SubTexture name="shiton0006" x="0" y="1314" width="383" height="214"/>
+	<SubTexture name="shiton0007" x="0" y="1314" width="383" height="214"/>
+	<SubTexture name="shiton0008" x="388" y="1314" width="383" height="214"/>
+	<SubTexture name="shiton0009" x="0" y="1533" width="383" height="214"/>
+	<SubTexture name="shiton0010" x="388" y="1533" width="383" height="214"/>
+	<SubTexture name="shiton0011" x="388" y="1533" width="383" height="214"/>
+</TextureAtlas>

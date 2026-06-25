@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="score.png">
+	<!-- Created with Adobe Animate version 18.0.2.126 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="score0000" x="0" y="0" width="247" height="73" pivotX="-26.9" pivotY="-89.05"/>
+	<SubTexture name="score0001" x="0" y="0" width="247" height="73"/>
+	<SubTexture name="score0002" x="0" y="0" width="247" height="73"/>
+	<SubTexture name="score0003" x="0" y="0" width="247" height="73"/>
+	<SubTexture name="score0004" x="252" y="0" width="247" height="73"/>
+	<SubTexture name="score0005" x="252" y="0" width="247" height="73"/>
+	<SubTexture name="score0006" x="252" y="0" width="247" height="73"/>
+	<SubTexture name="score0007" x="252" y="0" width="247" height="73"/>
+	<SubTexture name="score0008" x="0" y="0" width="247" height="73"/>
+	<SubTexture name="score0009" x="0" y="0" width="247" height="73"/>
+	<SubTexture name="score0010" x="0" y="0" width="247" height="73"/>
+	<SubTexture name="score0011" x="0" y="0" width="247" height="73"/>
+	<SubTexture name="score0012" x="252" y="0" width="247" height="73"/>
+	<SubTexture name="score0013" x="252" y="0" width="247" height="73"/>
+	<SubTexture name="score0014" x="252" y="0" width="247" height="73"/>
+	<SubTexture name="score0015" x="252" y="0" width="247" height="73"/>
+	<SubTexture name="score0016" x="0" y="0" width="247" height="73"/>
+	<SubTexture name="score0017" x="0" y="0" width="247" height="73"/>
+	<SubTexture name="score0018" x="0" y="0" width="247" height="73"/>
+	<SubTexture name="score0019" x="0" y="0" width="247" height="73"/>
+	<SubTexture name="score0020" x="252" y="0" width="247" height="73"/>
+	<SubTexture name="score0021" x="252" y="0" width="247" height="73"/>
+	<SubTexture name="score0022" x="252" y="0" width="247" height="73"/>
+	<SubTexture name="score0023" x="252" y="0" width="247" height="73"/>
+	<SubTexture name="score0024" x="0" y="0" width="247" height="73"/>
+	<SubTexture name="score0025" x="0" y="0" width="247" height="73"/>
+	<SubTexture name="score0026" x="0" y="0" width="247" height="73"/>
+	<SubTexture name="score0027" x="0" y="0" width="247" height="73"/>
+	<SubTexture name="score0028" x="252" y="0" width="247" height="73"/>
+	<SubTexture name="score0029" x="252" y="0" width="247" height="73"/>
+	<SubTexture name="score0030" x="252" y="0" width="247" height="73"/>
+	<SubTexture name="score0031" x="252" y="0" width="247" height="73"/>
+	<SubTexture name="score0032" x="0" y="0" width="247" height="73"/>
+	<SubTexture name="score0033" x="0" y="0" width="247" height="73"/>
+	<SubTexture name="score0034" x="0" y="78" width="247" height="73"/>
+	<SubTexture name="score0035" x="0" y="78" width="247" height="73"/>
+	<SubTexture name="score0036" x="252" y="78" width="247" height="73"/>
+	<SubTexture name="score0037" x="252" y="78" width="247" height="73"/>
+	<SubTexture name="score0038" x="0" y="156" width="247" height="73"/>
+	<SubTexture name="score0039" x="0" y="156" width="247" height="73"/>
+	<SubTexture name="score0040" x="252" y="156" width="247" height="73"/>
+	<SubTexture name="score0041" x="252" y="156" width="247" height="73"/>
+	<SubTexture name="score0042" x="0" y="234" width="247" height="73"/>
+	<SubTexture name="score0043" x="0" y="234" width="247" height="73"/>
+	<SubTexture name="score0044" x="252" y="0" width="247" height="73"/>
+	<SubTexture name="score0045" x="252" y="0" width="247" height="73"/>
+	<SubTexture name="score0046" x="252" y="0" width="247" height="73"/>
+	<SubTexture name="score0047" x="252" y="0" width="247" height="73"/>
+</TextureAtlas>

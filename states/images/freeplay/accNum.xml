@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="accNum.png">
+	<!-- Created with Adobe Animate version 18.0.1.115 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="00" x="61" y="165" width="55" height="79"/>
+	<SubTexture name="10" x="5" y="5" width="55" height="79"/>
+	<SubTexture name="20" x="61" y="5" width="55" height="79"/>
+	<SubTexture name="30" x="117" y="5" width="55" height="79"/>
+	<SubTexture name="40" x="173" y="5" width="55" height="79"/>
+	<SubTexture name="50" x="5" y="85" width="55" height="79"/>
+	<SubTexture name="60" x="61" y="85" width="55" height="79"/>
+	<SubTexture name="70" x="117" y="85" width="55" height="79"/>
+	<SubTexture name="80" x="173" y="85" width="55" height="79"/>
+	<SubTexture name="90" x="5" y="165" width="55" height="79"/>
+	<SubTexture name="dash0" x="117" y="165" width="55" height="79"/>
+</TextureAtlas>

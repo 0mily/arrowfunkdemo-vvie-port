@@ -1,0 +1,395 @@
+import funkin.objects.BGSprite;
+import flixel.addons.display.FlxBackdrop;
+import flixel.addons.display.FlxGridOverlay;
+import backend.CoolUtil;
+
+var titleTexts:Array<Alphabet> = [];
+var titleImages:Array<BGSprite> = [];
+
+var buceta:Array<String> = [];
+var atual:Array<String> = [];
+
+var foi:Bool = false;
+var jaera:Bool = false;
+var gostosa:Bool = false;
+
+var camera:Float = 1;
+
+// ==============================
+// coisa boa
+// ==============================
+
+var bg:FlxBackdrop = new FlxBackdrop(FlxGridOverlay.createGrid(125, 125, 250, 250, true, 0xFF000000, 0x0));
+var lol:BGSprite = new BGSprite('title/titlebg0', 0, 0, 0.0, 0.0);
+
+
+// ==============================
+// legal menu legay
+// ==============================
+
+var bgrosa:FlxBackdrop = new FlxBackdrop(FlxGridOverlay.createGrid(110, 110, 220, 220, true, 0xFFDE38FF, 0x0));
+var rj:BGSprite = new BGSprite('title/titlebg/titlebg_2', 0, 0, 0.0, 0.0);
+var trecoazul:BGSprite = new BGSprite('title/menuBGoverlay', 0, 0, 0.0, 0.0);
+var barra1:BGSprite = new BGSprite('title/barra', 0, 0, 0.0, 0.0);
+var barra2:BGSprite = new BGSprite('title/barra', 0, 0, 0.0, 0.0);
+
+var bidubarb = new FlxSprite(5, 125);
+var press = new FlxSprite(5, 125);
+var logo = new FlxSprite(5, 125);
+
+
+
+
+function onLoad() {
+    buceta = CoolUtil.coolTextFile(Paths.txt('introText'));
+    bg.velocity.set(30, 0);
+    bg.blend = 3;
+    bg.alpha = 0.15;
+
+    bgrosa.velocity.set(-100, 0);
+    bgrosa.blend = 11;
+    bgrosa.alpha = 0.25;
+
+    rj.scale.set(1.2, 1.2);
+
+
+    add(lol);
+
+    add(bg);
+
+}
+
+function onCreate() {
+    setStateBPM(148);
+    FlxG.sound.music.stop();
+
+    bidubarb.frames = Paths.getSparrowAtlas('title/titlefuckers');
+    bidubarb.animation.addByPrefix('titlefuckers dance', 'titlefuckers dance', 24, false);
+    bidubarb.visible = false;
+    add(bidubarb);
+}
+
+function onCreatePost() {
+    camGame.zoom += 0.015;
+}
+
+// beat 33 é o drop
+function onBeatHit() {
+    // trace('Beat: ' + curBeat);
+    bump();
+
+
+    switch (curBeat) {
+
+        case 1:
+            FlxG.sound.playMusic(Paths.menuMusic('AFmenu'), 0.67);
+        case 2:
+            createT("mod by yoisabo", 40);
+            gostosa = true;
+        case 3:
+            addTto(1, "roxo depressivo");
+            
+
+        case 4:
+            addTto(2, "im not sonic");
+
+        case 5:
+            addTto(3, "beastlychip");
+        
+        case 6:
+            removeT();
+            createT("allyts", 40);
+        
+        case 7:
+            addTto(1, "crowplexus");
+
+        case 8:
+            addTto(2, "gazozoz");
+
+        case 9:
+            addTto(3, "diogotv");
+
+        case 10:
+            addTto(4, "gabiss");
+
+        case 11:
+            removeT();
+            createT("Viroviroice by", 40);
+        case 12:
+            addTto(1, "mily_0");
+            addTto(2, "Shiho");
+
+        case 13:
+            addTto(3, "and contributors");
+
+        case 14:
+            removeT();
+            createT("Not", 40);
+        
+        case 15:
+            removeT();
+            createT("Not Associated", 40);
+
+        case 16:
+            removeT();
+            createT("Not Associated with", 40);
+
+        case 17:
+            addTto(1, "newgrounds");
+            createImage("newgrounds_logo", 288);
+            
+        case 18:
+            removeT();
+            removeImage();
+            createT("Another", 40);
+
+        case 19:
+            removeT();
+            createT("Another remix", 40);
+
+        case 19:
+            removeT();
+            createT("Another remix mod", 40);
+        
+        case 20:
+            addTto(1, "(yaaay)");
+
+        case 21:
+            removeT();
+            createT("Now i know", 40);
+        
+        case 23:
+            addTto(1, "what to write here");
+
+        case 24:
+            addTto(2, "(nothing)");
+
+        case 25:
+            removeT();
+            createT("look at this little dude", 40);
+
+        case 26:
+            createImage("title/bufren", 310);
+
+        case 27:
+            removeT();
+            removeImage();
+            chapo1();
+
+        case 28:
+            chapo2();
+
+        case 29:
+            removeT();
+            removeImage();
+            createT("fnf", 40);
+
+        case 30:
+            addTto(1, "arrow");
+        
+        case 31:
+            addTto(2, "funk");
+
+        case 32:
+            removeT();
+            createT("yipeeee!!", 40);
+            foi = true; // fdp nn pular mais sem querer
+
+        case 33:
+            removeT();
+            if (jaera) return; // isso de longe é a maneira mais porca
+            drop();
+    }
+
+
+}
+
+function onUpdate(elapsed:Float) {
+
+    if (controls.ACCEPT) {
+        if (foi) {
+            enterFuckyea();
+        } 
+        else if (gostosa) {
+            foi = true;
+
+            removeT();
+            removeImage();
+            FlxG.sound.music.time = (33 * 60 / 148) * 1000;
+            drop();
+        }
+    }
+
+    if (camGame.zoom > camera) {
+        camGame.zoom -= (camGame.zoom - camera) * (elapsed * 5);
+        
+        if (camGame.zoom < camera) camGame.zoom = camera;
+    }
+}
+
+
+
+function drop() {
+    bidubarb.visible = true;
+    jaera = true;
+    trace("drop fodido muda tudo porra caralho");
+    camGame.flash(0xFFFFFFFF, 1);
+    lol.destroy();
+    bg.destroy();
+    camGame.zoom = 1.5;
+    camera = 1.5;
+    camGame.angle = 2;
+
+    FlxTween.tween(camGame, {angle: 0}, 5, {ease: FlxEase.expoOut});
+    FlxTween.num(1.5, 1, 2, {ease: FlxEase.expoOut}, function(og:Float) {camera = og;});
+
+
+    barra2.flipY = true;
+
+    FlxTween.tween(barra1, {y: 230}, 2, {ease: FlxEase.expoOut});
+    FlxTween.tween(barra2, {y: -230}, 2, {ease: FlxEase.expoOut});
+
+    
+
+    press.frames = Paths.getSparrowAtlas('title/titleEnter');
+    press.animation.addByPrefix('idle', 'ENTER IDLE', 24, true);
+    press.animation.addByPrefix('confirm', 'ENTER CONFIRM', 24, true);
+    press.animation.play('idle', true);
+
+    var borda:Float = 20; 
+    press.x = FlxG.width - press.width - borda;
+    press.y = FlxG.height - press.height - borda;
+
+    logo.frames = Paths.getSparrowAtlas('title/funnylogo');
+    logo.animation.addByPrefix('idle', 'logo bumpin', 24, false);
+    logo.x = FlxG.width - logo.width - borda + 5;
+    logo.y = 180;
+
+    add(rj);
+    add(bgrosa);
+    add(trecoazul);
+    
+    
+
+    add(barra1);
+    add(barra2);
+    
+    add(press);
+    add(logo);
+
+
+
+}
+
+function enterFuckyea() {
+    trace('indo');
+    press.animation.play('confirm', true);
+    FlxG.sound.play(Paths.uiSound('confirmTitle'));
+    camGame.flash(0xFFFFFFFF, 1);
+    FlxTween.tween(barra1, {y: 830}, 1.5, {ease: FlxEase.expoIn});
+    FlxTween.tween(barra2, {y: -830}, 1.5, {ease: FlxEase.expoIn});
+
+    FlxTween.tween(bidubarb, {y: 830}, 1.5, {ease: FlxEase.expoIn});
+    FlxTween.tween(bidubarb, {angle: 30}, 1.5, {ease: FlxEase.expoIn});
+
+    FlxTween.tween(trecoazul, {x: 630}, 1.5, {ease: FlxEase.expoIn});
+    FlxTween.tween(logo, {x: 1530}, 1.4, {ease: FlxEase.expoIn});
+    FlxTween.tween(press, {x: 1530}, 1.6, {ease: FlxEase.expoIn});
+
+    new FlxTimer().start(1.5, function(tmr:FlxTimer) {
+        MusicBeatState.switchState(new CustomState('AF_MainMenu'));
+    }, 1);
+}
+
+function bump() {
+    camGame.zoom += 0.015;
+    bidubarb.animation.play('titlefuckers dance', true);
+    logo.animation.play('idle', true);
+}
+
+
+
+
+// ========================================================
+
+function createT(text:String, ?yOffset:Float = 0) {
+    if (foi) return; // isso de longe é a maneira mais porca
+
+    removeT();
+
+    var txt = new Alphabet(0, 0, text, true, false);
+    txt.screenCenter(FlxAxes.X);
+    txt.y += yOffset + 140;
+
+    add(txt);
+    titleTexts.push(txt);
+}
+
+function addTto(line:Float, text:String) {
+    if (foi) return; // isso de longe é a maneira mais porca
+
+    var txt = new Alphabet(0, 0, text, true, false);
+
+    txt.screenCenter(FlxAxes.X);
+
+    if (titleTexts.length > 0)
+        txt.y = titleTexts[0].y + (line * 70);
+    else
+        txt.y = 200 + (line * 70);
+
+    add(txt);
+    titleTexts.push(txt);
+}
+
+function removeT() {
+    for (txt in titleTexts) {
+        remove(txt, true);
+        txt.destroy();
+    }
+
+    titleTexts = [];
+}
+
+function createImage(path:String, ?y:Float = 0) {
+    if (foi) return; // isso de longe é a maneira mais porca
+
+    var spr = new BGSprite(path, 0, y, 0.0, 0.0);
+    spr.screenCenter(FlxAxes.X);
+    
+    if (path == "title/bufren") {
+        spr.scale.set(0.75, 0.75);
+    } else {spr.scale.set(0.87, 0.87);}
+
+    add(spr);
+    titleImages.push(spr);
+
+    return spr;
+}
+
+function removeImage() {
+    for (spr in titleImages) {
+        remove(spr, true);
+        spr.destroy();
+    }
+
+    titleImages = [];
+}
+
+function chapo1() {
+    if (buceta.length > 0) {
+        var randIndex:Int = FlxG.random.int(0, buceta.length - 1);
+        var rawLine:String = buceta[randIndex];
+        atual = rawLine.split('--');
+        
+        createT(StringTools.trim(atual[0]), 40);
+    }
+}
+
+function chapo2() {
+    if (atual.length > 1 && atual[1] != null && StringTools.trim(atual[1]) != "") {
+        addTto(1, StringTools.trim(atual[1]));
+    }
+}
+
+
+

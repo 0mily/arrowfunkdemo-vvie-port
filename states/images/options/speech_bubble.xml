@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="speech_bubble.png">
+	<!-- Created with Adobe Animate version 18.0.1.115 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="speech bubble Middle Close0000" x="5" y="1281" width="589" height="200"/>
+	<SubTexture name="speech bubble Middle Close0001" x="5" y="5" width="395" height="135" frameX="-97" frameY="-32" frameWidth="589" frameHeight="200"/>
+	<SubTexture name="speech bubble Middle Close0002" x="401" y="5" width="203" height="69" frameX="-193" frameY="-65" frameWidth="589" frameHeight="200"/>
+	<SubTexture name="speech bubble Middle Close0003" x="605" y="5" width="9" height="4" frameX="-290" frameY="-98" frameWidth="589" frameHeight="200"/>
+	<SubTexture name="speech bubble Middle Close0004" x="605" y="5" width="9" height="4" frameX="-290" frameY="-98" frameWidth="589" frameHeight="200"/>
+	<SubTexture name="speech bubble Middle Open0000" x="621" y="5" width="15" height="8" frameX="-287" frameY="-96" frameWidth="589" frameHeight="200"/>
+	<SubTexture name="speech bubble Middle Open0001" x="637" y="5" width="230" height="80" frameX="-179" frameY="-60" frameWidth="589" frameHeight="200"/>
+	<SubTexture name="speech bubble Middle Open0002" x="5" y="141" width="379" height="130" frameX="-105" frameY="-35" frameWidth="589" frameHeight="200"/>
+	<SubTexture name="speech bubble Middle Open0003" x="385" y="141" width="475" height="162" frameX="-57" frameY="-19" frameWidth="589" frameHeight="200"/>
+	<SubTexture name="speech bubble Middle Open0004" x="5" y="304" width="534" height="182" frameX="-27" frameY="-9" frameWidth="589" frameHeight="200"/>
+	<SubTexture name="speech bubble Middle Open0005" x="5" y="487" width="566" height="192" frameX="-11" frameY="-4" frameWidth="589" frameHeight="200"/>
+	<SubTexture name="speech bubble Middle Open0006" x="5" y="680" width="582" height="198" frameX="-3" frameY="-1" frameWidth="589" frameHeight="200"/>
+	<SubTexture name="speech bubble Middle Open0007" x="5" y="879" width="587" height="200" frameX="-1" frameY="0" frameWidth="589" frameHeight="200"/>
+	<SubTexture name="speech bubble Middle Open0008" x="5" y="1080" width="588" height="200" frameX="0" frameY="0" frameWidth="589" frameHeight="200"/>
+	<SubTexture name="speech bubble Middle Open0009" x="5" y="1281" width="589" height="200"/>
+	<SubTexture name="speech bubble Middle Open0010" x="5" y="1281" width="589" height="200"/>
+	<SubTexture name="speech bubble middle0000" x="5" y="1281" width="589" height="200"/>
+</TextureAtlas>

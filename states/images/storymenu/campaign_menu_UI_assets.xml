@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="campaign_menu_UI_assets.png">
+	<!-- Created with Adobe Animate version 18.0.1.115 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="arrow down0000" x="0" y="0" width="80" height="44" pivotX="-32.4" pivotY="1"/>
+	<SubTexture name="arrow down0001" x="0" y="0" width="80" height="44"/>
+	<SubTexture name="arrow down0002" x="85" y="0" width="80" height="43" frameX="0" frameY="-1" frameWidth="80" frameHeight="44"/>
+	<SubTexture name="arrow down0003" x="85" y="0" width="80" height="43" frameX="0" frameY="-1" frameWidth="80" frameHeight="44"/>
+	<SubTexture name="arrow push down0000" x="170" y="0" width="62" height="60" pivotX="-40.25" pivotY="7.05"/>
+	<SubTexture name="arrow push down0001" x="170" y="0" width="62" height="60"/>
+	<SubTexture name="arrow push down0002" x="170" y="0" width="62" height="60"/>
+	<SubTexture name="arrow push down0003" x="170" y="0" width="62" height="60"/>
+	<SubTexture name="arrow push up0000" x="237" y="0" width="62" height="61" pivotX="-40.2" pivotY="-30.45"/>
+	<SubTexture name="arrow push up0001" x="237" y="0" width="62" height="61"/>
+	<SubTexture name="arrow push up0002" x="237" y="0" width="62" height="61"/>
+	<SubTexture name="arrow push up0003" x="237" y="0" width="62" height="61"/>
+	<SubTexture name="arrow up0000" x="304" y="0" width="80" height="45" pivotX="-30.9" pivotY="-42.3" frameX="-1" frameY="0" frameWidth="81" frameHeight="45"/>
+	<SubTexture name="arrow up0001" x="304" y="0" width="80" height="45" frameX="-1" frameY="0" frameWidth="81" frameHeight="45"/>
+	<SubTexture name="arrow up0002" x="389" y="0" width="81" height="45"/>
+	<SubTexture name="arrow up0003" x="389" y="0" width="81" height="45"/>
+	<SubTexture name="lock0000" x="0" y="66" width="165" height="247" pivotX="13" pivotY="12.45"/>
+	<SubTexture name="lock0001" x="0" y="66" width="165" height="247"/>
+	<SubTexture name="lock0002" x="170" y="66" width="164" height="247" frameX="-1" frameY="0" frameWidth="165" frameHeight="247"/>
+	<SubTexture name="lock0003" x="170" y="66" width="164" height="247" frameX="-1" frameY="0" frameWidth="165" frameHeight="247"/>
+</TextureAtlas>

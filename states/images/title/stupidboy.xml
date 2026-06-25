@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="stupidboy.png">
+	<!-- Created with Adobe Animate version 18.0.1.115 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="stupidboy instance 10000" x="0" y="0" width="501" height="669" pivotX="41.7" pivotY="56.05" frameX="0" frameY="0" frameWidth="502" frameHeight="669"/>
+	<SubTexture name="stupidboy instance 10001" x="0" y="0" width="501" height="669" frameX="0" frameY="0" frameWidth="502" frameHeight="669"/>
+	<SubTexture name="stupidboy instance 10002" x="0" y="0" width="501" height="669" frameX="0" frameY="0" frameWidth="502" frameHeight="669"/>
+	<SubTexture name="stupidboy instance 10003" x="506" y="0" width="502" height="669"/>
+	<SubTexture name="stupidboy instance 10004" x="506" y="0" width="502" height="669"/>
+	<SubTexture name="stupidboy instance 10005" x="506" y="0" width="502" height="669"/>
+</TextureAtlas>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="freeplaybidu.png">
+	<!-- Created with Adobe Animate version 18.0.2.126 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bidu freeplay confirm0000" x="0" y="0" width="467" height="511" pivotX="70" pivotY="-21.1" frameX="-13" frameY="0" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0001" x="0" y="0" width="467" height="511" frameX="-13" frameY="0" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0002" x="472" y="0" width="438" height="532" frameX="-24" frameY="-6" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0003" x="472" y="0" width="438" height="532" frameX="-24" frameY="-6" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0004" x="915" y="0" width="547" height="539" frameX="0" frameY="-56" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0005" x="915" y="0" width="547" height="539" frameX="0" frameY="-56" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0006" x="1467" y="0" width="491" height="530" frameX="-26" frameY="-60" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0007" x="1467" y="0" width="491" height="530" frameX="-26" frameY="-60" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0008" x="0" y="544" width="484" height="541" frameX="-25" frameY="-50" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0009" x="0" y="544" width="484" height="541" frameX="-25" frameY="-50" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0010" x="489" y="544" width="485" height="542" frameX="-25" frameY="-49" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0011" x="489" y="544" width="485" height="542" frameX="-25" frameY="-49" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0012" x="979" y="544" width="485" height="542" frameX="-25" frameY="-49" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0013" x="979" y="544" width="485" height="542" frameX="-25" frameY="-49" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0014" x="979" y="544" width="485" height="542" frameX="-25" frameY="-49" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0015" x="979" y="544" width="485" height="542" frameX="-25" frameY="-49" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0016" x="979" y="544" width="485" height="542" frameX="-25" frameY="-49" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0017" x="979" y="544" width="485" height="542" frameX="-25" frameY="-49" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0018" x="979" y="544" width="485" height="542" frameX="-25" frameY="-49" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0019" x="979" y="544" width="485" height="542" frameX="-25" frameY="-49" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0020" x="979" y="544" width="485" height="542" frameX="-25" frameY="-49" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0021" x="979" y="544" width="485" height="542" frameX="-25" frameY="-49" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0022" x="979" y="544" width="485" height="542" frameX="-25" frameY="-49" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0023" x="979" y="544" width="485" height="542" frameX="-25" frameY="-49" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0024" x="979" y="544" width="485" height="542" frameX="-25" frameY="-49" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0025" x="979" y="544" width="485" height="542" frameX="-25" frameY="-49" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0026" x="979" y="544" width="485" height="542" frameX="-25" frameY="-49" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay confirm0027" x="979" y="544" width="485" height="542" frameX="-25" frameY="-49" frameWidth="547" frameHeight="595"/>
+	<SubTexture name="bidu freeplay dance0000" x="1469" y="544" width="536" height="454" pivotX="98.2" pivotY="-60.45" frameX="0" frameY="-19" frameWidth="536" frameHeight="473"/>
+	<SubTexture name="bidu freeplay dance0001" x="1469" y="544" width="536" height="454" frameX="0" frameY="-19" frameWidth="536" frameHeight="473"/>
+	<SubTexture name="bidu freeplay dance0002" x="0" y="1091" width="534" height="455" frameX="-1" frameY="-17" frameWidth="536" frameHeight="473"/>
+	<SubTexture name="bidu freeplay dance0003" x="0" y="1091" width="534" height="455" frameX="-1" frameY="-17" frameWidth="536" frameHeight="473"/>
+	<SubTexture name="bidu freeplay dance0004" x="539" y="1091" width="524" height="464" frameX="-10" frameY="-8" frameWidth="536" frameHeight="473"/>
+	<SubTexture name="bidu freeplay dance0005" x="539" y="1091" width="524" height="464" frameX="-10" frameY="-8" frameWidth="536" frameHeight="473"/>
+	<SubTexture name="bidu freeplay dance0006" x="1068" y="1091" width="515" height="471" frameX="-18" frameY="-1" frameWidth="536" frameHeight="473"/>
+	<SubTexture name="bidu freeplay dance0007" x="1068" y="1091" width="515" height="471" frameX="-18" frameY="-1" frameWidth="536" frameHeight="473"/>
+	<SubTexture name="bidu freeplay dance0008" x="0" y="1567" width="517" height="472" frameX="-15" frameY="0" frameWidth="536" frameHeight="473"/>
+	<SubTexture name="bidu freeplay dance0009" x="0" y="1567" width="517" height="472" frameX="-15" frameY="0" frameWidth="536" frameHeight="473"/>
+	<SubTexture name="bidu freeplay dance0010" x="522" y="1567" width="517" height="472" frameX="-15" frameY="0" frameWidth="536" frameHeight="473"/>
+	<SubTexture name="bidu freeplay dance0011" x="522" y="1567" width="517" height="472" frameX="-15" frameY="0" frameWidth="536" frameHeight="473"/>
+	<SubTexture name="bidu freeplay dance0012" x="1044" y="1567" width="517" height="472" frameX="-15" frameY="0" frameWidth="536" frameHeight="473"/>
+	<SubTexture name="bidu freeplay dance0013" x="1044" y="1567" width="517" height="472" frameX="-15" frameY="0" frameWidth="536" frameHeight="473"/>
+	<SubTexture name="bidu freeplay dance0014" x="1044" y="1567" width="517" height="472" frameX="-15" frameY="0" frameWidth="536" frameHeight="473"/>
+</TextureAtlas>

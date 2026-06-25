@@ -1,0 +1,204 @@
+import funkin.objects.BGSprite;
+import flixel.FlxSprite; // nto really necessary
+import flixel.addons.display.FlxBackdrop;
+import flixel.addons.display.FlxGridOverlay;
+import backend.CoolUtil;
+import flixel.FlxG;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
+
+var bgrosa:FlxBackdrop = new FlxBackdrop(FlxGridOverlay.createGrid(110, 110, 220, 220, true, 0xFFD61F3A, 0x0));
+var lol:BGSprite = new BGSprite('mainMenu/menuBG', 0, -20, 0.0, 0.0);
+var azulin:BGSprite = new BGSprite('mainMenu/mmov', 0, 0, 0.0, 0.0);
+
+var barra1:BGSprite = new BGSprite('title/barra', 0, 0, 0.0, 0.0);
+var barra2:BGSprite = new BGSprite('title/barra', 0, 0, 0.0, 0.0);
+
+var menus:Array<String> = ['story_mode', 'freeplay', 'awards', 'options', 'credits'];
+
+var borda:Float = 21; 
+
+var textoCanto:FlxText;
+
+// ==========================================
+// * As coisas das opção sla
+// ==========================================
+var espacament:Float = 200;
+var pipiGrande:Float = 0.6;
+
+var prolado:Float = -100;
+// var tweeb:Float = 1.5;
+var penis:Float = 0.6;
+
+// ==========================================
+
+var items:Array<FlxSprite> = [];
+var arts:Array<FlxSprite> = [];
+var curSelected:Int = 0;
+
+function onLoad() {
+    bgrosa.velocity.set(-20, 0);
+    bgrosa.blend = 11;
+    bgrosa.alpha = 0.25;
+
+    barra1.y = 200;
+    barra2.y = -200;
+    barra2.flipY = true;
+
+    add(lol);
+    add(bgrosa);
+    add(barra1);
+    add(barra2);
+    add(azulin);
+
+    for (i in 0...menus.length) {
+        var name:String = menus[i];
+
+        var art:FlxSprite = new FlxSprite(0, 0);
+        
+        art.frames = Paths.getSparrowAtlas('mainmenu/art/art_' + name);
+        
+        art.animation.addByPrefix('idle', name, 24, true);
+        
+        art.scale.set(1.2, 1.2);
+        art.updateHitbox();
+        
+        art.x = -art.width - 200; 
+        art.animation.play('idle');
+        
+        add(art);
+        arts.push(art);
+    }
+
+    for (i in 0...menus.length) {
+        var name:String = menus[i];
+
+        var item:FlxSprite = new FlxSprite(0, 0);
+        
+        item.frames = Paths.getSparrowAtlas('mainmenu/obj/menu_' + name);
+        
+        item.animation.addByPrefix('white', name + ' white', 24, true);
+        item.animation.addByPrefix('idle', name + ' basic', 24, true);
+        
+        item.scale.set(pipiGrande, pipiGrande);
+        item.updateHitbox();
+
+        item.x = FlxG.width - item.width - borda;
+        item.animation.play('idle');
+        
+        add(item);
+        items.push(item);
+    }
+
+    textoCanto = new FlxText(borda, 0, 0, "Arrow Funk v2.0 DEMO\nViroViroIce ICEBREAK v1.0.322d753", 18);
+    textoCanto.font = Paths.font("hey.ttf");
+    textoCanto.alignment = "left";
+    textoCanto.antialiasing = true;
+    textoCanto.y = FlxG.height - textoCanto.height;
+
+    add(textoCanto);
+
+    mudar(0);
+}
+
+function onUpdate(elapsed:Float) {
+    if (controls.UI_UP_P) {
+        mudar(-1);
+    }
+    if (controls.UI_DOWN_P) {
+        mudar(1);
+    }
+}
+
+function mudar(change:Int) {
+    curSelected += change;
+
+    if (curSelected < 0) curSelected = menus.length - 1;
+    if (curSelected >= menus.length) curSelected = 0;
+
+    var entre:Float = 133; 
+
+    for (i in 0...items.length) {
+        var item:FlxSprite = items[i];
+        
+        FlxTween.cancelTweensOf(item);
+
+        var oX:Float = FlxG.width - item.width - borda;
+        var oY:Float = -12 + (i * espacament) - (curSelected * entre);
+
+        if (i == curSelected) {
+            item.animation.play('white');
+            FlxTween.tween(item, {x: oX + prolado, y: oY}, penis, {ease: FlxEase.expoOut});
+        } else {
+            item.animation.play('idle');
+            FlxTween.tween(item, {x: oX, y: oY}, penis, {ease: FlxEase.expoOut});
+        }
+    }
+
+    for (i in 0...arts.length) {
+        var art:FlxSprite = arts[i];
+        
+        FlxTween.cancelTweensOf(art);
+
+        if (i == curSelected) {
+            var scaleA:Float = 1;
+
+        // ===========================================================
+        // * cara, honestamente eu nn creio que exista maneira
+        // * melhor de fazer isso. Se alguém tiver, me fale pelo
+        // * amor de cristo pq é mt chato
+        //
+        //
+        //
+        //
+        //
+        // * OBS: eu vou querer usar isso dps como tempalte
+        // ===========================================================
+
+            /*switch(menus[i]) {
+                case 'credits':    scaleA = 1;
+
+                // * aqui seria os scale, mas daí eu vi que vai ser foda pq tudo é 1
+                // * ent eu fiz por nada xd
+            }*/
+
+            art.scale.set(scaleA, scaleA);
+            art.updateHitbox();
+
+        // ===========================================================
+        // * Uhm, variaves engraçadas
+        // ===========================================================
+            var xA:Float = 0;
+            var yA:Float = (FlxG.height - art.height) / 2; // isso seria tipo um screencenter né?
+            //var angleA:Float = 0; // never actually used
+
+            switch(menus[i]) {
+                case 'story_mode':
+                    xA = 19;
+                    yA -= 9;
+                
+                case 'freeplay':
+                    xA = 10;
+                    yA -= 50;
+                
+                case 'awards':
+                    xA = 30;
+                
+                case 'options':
+                    xA = 0;
+                    yA += 10;
+                
+                case 'credits':
+                    xA = 15;
+            }
+
+            art.y = yA;
+            //art.angle = angleA;
+
+            FlxTween.tween(art, {x: xA}, penis, {ease: FlxEase.expoOut});
+            
+        } else {
+            FlxTween.tween(art, {x: -art.width - 200}, penis, {ease: FlxEase.expoOut});
+        }
+    }
+}

@@ -2,5 +2,10 @@
 	"name": "Name",
 	"description": "Description",
 	"runsGlobally": true,
-	"enableSticker": false
+	"enableSticker": false,
+
+	"states": {
+		"TitleState": "BootState"
+	}
+
 }

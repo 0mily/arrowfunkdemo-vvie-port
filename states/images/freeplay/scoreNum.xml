@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="scoreNum.png">
+	<!-- Created with Adobe Animate version 18.0.1.115 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="00" x="419" y="5" width="45" height="65"/>
+	<SubTexture name="10" x="5" y="5" width="45" height="65"/>
+	<SubTexture name="20" x="51" y="5" width="45" height="65"/>
+	<SubTexture name="30" x="97" y="5" width="45" height="65"/>
+	<SubTexture name="40" x="143" y="5" width="45" height="65"/>
+	<SubTexture name="50" x="189" y="5" width="45" height="65"/>
+	<SubTexture name="60" x="235" y="5" width="45" height="65"/>
+	<SubTexture name="70" x="281" y="5" width="45" height="65"/>
+	<SubTexture name="80" x="327" y="5" width="45" height="65"/>
+	<SubTexture name="90" x="373" y="5" width="45" height="65"/>
+	<SubTexture name="loop0000" x="419" y="5" width="45" height="65"/>
+	<SubTexture name="loop0001" x="5" y="5" width="45" height="65"/>
+	<SubTexture name="loop0002" x="51" y="5" width="45" height="65"/>
+	<SubTexture name="loop0003" x="97" y="5" width="45" height="65"/>
+	<SubTexture name="loop0004" x="143" y="5" width="45" height="65"/>
+	<SubTexture name="loop0005" x="189" y="5" width="45" height="65"/>
+	<SubTexture name="loop0006" x="235" y="5" width="45" height="65"/>
+	<SubTexture name="loop0007" x="281" y="5" width="45" height="65"/>
+	<SubTexture name="loop0008" x="327" y="5" width="45" height="65"/>
+	<SubTexture name="loop0009" x="373" y="5" width="45" height="65"/>
+</TextureAtlas>

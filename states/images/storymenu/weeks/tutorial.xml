@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tutorial.png">
+	<!-- Created with Adobe Animate version 18.0.1.115 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="tutorial0000" x="0" y="0" width="495" height="184" pivotX="33.2" pivotY="-17.15"/>
+	<SubTexture name="tutorial0001" x="0" y="0" width="495" height="184"/>
+	<SubTexture name="tutorial0002" x="0" y="189" width="494" height="184" frameX="0" frameY="0" frameWidth="495" frameHeight="184"/>
+	<SubTexture name="tutorial0003" x="0" y="189" width="494" height="184" frameX="0" frameY="0" frameWidth="495" frameHeight="184"/>
+</TextureAtlas>

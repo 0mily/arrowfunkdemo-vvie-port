@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="setas.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="setatrans0000" x="3" y="3" width="152" height="142" frameX="0" frameY="-5" frameWidth="152" frameHeight="152"/>
+	<SubTexture name="setatrans0001" x="158" y="3" width="152" height="142" frameX="0" frameY="-5" frameWidth="152" frameHeight="152"/>
+	<SubTexture name="setatrans0002" x="313" y="3" width="142" height="152" frameX="-5" frameY="0" frameWidth="152" frameHeight="152"/>
+	<SubTexture name="setatrans0003" x="3" y="158" width="152" height="142" frameX="0" frameY="-5" frameWidth="152" frameHeight="152"/>
+	<SubTexture name="setatrans0004" x="158" y="158" width="142" height="152" frameX="-5" frameY="0" frameWidth="152" frameHeight="152"/>
+	<SubTexture name="setatrans0005" x="303" y="158" width="142" height="152" frameX="-5" frameY="0" frameWidth="152" frameHeight="152"/>
+	<SubTexture name="setatrans0006" x="3" y="313" width="142" height="152" frameX="-5" frameY="0" frameWidth="152" frameHeight="152"/>
+	<SubTexture name="setatrans0007" x="148" y="313" width="152" height="142" frameX="0" frameY="-5" frameWidth="152" frameHeight="152"/>
+</TextureAtlas>

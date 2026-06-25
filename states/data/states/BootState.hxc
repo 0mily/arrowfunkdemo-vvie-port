@@ -1,0 +1,156 @@
+import sys.FileSystem;
+import flixel.addons.display.FlxBackdrop;
+import backend.GradientUtil;
+import flixel.FlxG;
+
+var gradient;
+var aicabrom = FileSystem.exists("contents/arrowfunkdemo-vvie-port/saving/warning-arrowfunk.json");
+var aiai:FlxBackdrop = new FlxBackdrop(Paths.image('title/menugrid'), FlxAxes.XY, true, true);
+var camera:Float = 1;
+
+warning = new Alphabet(0,0,'Ir para Warning',true, false, 0.0, 1.5);
+title = new Alphabet(0,0,'Ir para TitleState',true, false, 0.0, 1.5);
+
+var sla:Float = 0.6;
+var sla2:Float = 0.6;
+
+var warningHitbox = new FlxSprite(warning.x, warning.y).makeGraphic(
+        Std.int(warning.width),
+        Std.int(warning.height),
+        FlxColor.TRANSPARENT
+    );
+
+function onCreate() {
+    setStateBPM(78.157);
+    FlxG.sound.music.stop();
+    FlxG.mouse.visible = true;
+    camGame.visible = false;
+    camGame.angle = 2;
+    aiai.angle = 1;
+
+
+    gradient = new FlxSprite(0, -940);
+
+    GradientUtil.applyToSprite(
+        gradient,
+        FlxG.width + 10,
+        FlxG.height + 2000,
+        [0xFF000000, 0x9D000000],
+        null,
+        1
+    );
+
+    buceta = new Alphabet(0,0,'bootState',true, false, 0.0, 0.5);
+    buceta.screenCenter();
+    FlxTween.tween(buceta, {y: 40}, 2, {ease: FlxEase.expoOut});
+    FlxTween.tween(aiai, {alpha: 0.5}, 5, {ease: FlxEase.expoOut});
+    
+    
+    title.setScale(0.6);
+
+    
+    warning.setScale(0.6);
+
+    trace(warning.width);
+    trace(warning.height);
+    
+
+    title.y = 300;
+    warning.y = 410;
+
+    aiai.velocity.set(10, 10);
+    aiai.scale.set(0.6, 0.6);
+    aiai.alpha = 0;
+
+    //title.y = 300;
+    warningHitbox.y = 410;
+
+    gradient.angle = -90;
+
+    add(aiai);
+    add(gradient);
+    add(buceta);
+    add(title);
+    add(warning);
+    
+
+add(warningHitbox);
+    
+}
+
+
+function onBeatHit() {
+    if (curBeat % 2 == 0) {
+        bump();
+    }
+
+    
+    if (curBeat == 1) {
+        active();
+        FlxG.sound.playMusic(Paths.menuMusic('AFoptions'), 0.67);
+    }
+}
+
+
+function onUpdate(elapsed)
+{   
+    var borda:Float = 13;
+    warning.x = FlxG.width - warning.width - borda;
+    title.x = FlxG.width - title.width - borda;
+
+    warningHitbox.x = FlxG.width - warningHitbox.width - borda;
+
+    warning.setScale(sla);
+    title.setScale(sla2);
+
+
+    if (FlxG.mouse.overlaps(warningHitbox))
+    {
+    FlxTween.num( sla, 0.7, 0.5, {ease: FlxEase.expoOut}, function(v) { sla = v; warning.setScale(v); });
+        if (FlxG.mouse.justReleased) {gostosa();}
+    } else { 
+    FlxTween.num( sla, 0.6, 0.5, {ease: FlxEase.expoOut}, function(v) { sla = v; warning.setScale(v); });
+    }
+
+    if (FlxG.mouse.overlaps(title))
+    {
+    FlxTween.num( sla2, 0.7, 0.5, {ease: FlxEase.expoOut}, function(v) { sla2 = v; title.setScale(v); });
+        if (FlxG.mouse.justReleased) {gostosa2();}
+    } else { 
+    FlxTween.num( sla2, 0.6, 0.5, {ease: FlxEase.expoOut}, function(v) { sla2 = v; title.setScale(v); });
+    }
+
+
+    if (FlxG.keys.justPressed.ONE) {
+        trace('o arquivo existe? Retornar: ' + aicabrom);
+    }
+
+    if (controls.BACK) {
+        MusicBeatState.switchState(new states.MainMenuState());
+    }
+
+    if (camGame.zoom > camera) {
+        camGame.zoom -= (camGame.zoom - camera) * (elapsed * 3);
+        
+        if (camGame.zoom < camera) camGame.zoom = camera;
+    }
+}
+
+function gostosa() {
+    MusicBeatState.switchState(new CustomState('AF_Flashing'));
+}
+
+function gostosa2() {
+    MusicBeatState.switchState(new CustomState('AF_TitleState'));
+}
+
+function bump() {
+    camGame.zoom += 0.035;
+}
+
+function active()
+{
+    camGame.visible = true;
+    FlxTween.tween(camGame, {angle: 0}, 2, {ease: FlxEase.expoOut});
+    FlxTween.tween(aiai, {angle: 0}, 2, {ease: FlxEase.expoOut});
+}

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ventiladorfnaf.png">
+	<!-- Created with Adobe Animate version 18.0.2.126 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="rodar0000" x="0" y="0" width="110" height="159" pivotX="-22.1" pivotY="0.05"/>
+	<SubTexture name="rodar0001" x="115" y="0" width="110" height="159"/>
+</TextureAtlas>

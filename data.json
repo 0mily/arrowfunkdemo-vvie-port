@@ -4,7 +4,12 @@
     "version": "2.0 DEMO",
     "author": "Yoisabo",
     "DiscordRPC": "1341812014577618985",
+    
+    "states": {
+		"TitleState": "BootState"
+	},
     "addons":
+
     {
         "allowAddons": false,
         "addonPrefix": ""
